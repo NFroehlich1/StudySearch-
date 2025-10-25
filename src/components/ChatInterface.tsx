@@ -11,6 +11,7 @@ import VoiceIndicator from './VoiceIndicator';
 import PDFViewer from './PDFViewer';
 import CourseRecommendations from './CourseRecommendations';
 import { useCourseRecommendations } from '@/hooks/useCourseRecommendations';
+import { extractCoursesFromMessage, quickDetectCourses } from '@/utils/courseParser';
 import { toast } from 'sonner';
 
 interface Message {
@@ -117,20 +118,35 @@ const ChatInterface = () => {
     await conversation.endSession();
   };
 
-  // Automatically commit transcript when AI stops speaking
+  // Automatically commit transcript when AI stops speaking and parse for courses
   useEffect(() => {
     if (!conversation.isSpeaking && currentTranscript.trim()) {
-      const timer = setTimeout(() => {
+      const timer = setTimeout(async () => {
+        const fullMessage = currentTranscript.trim();
+        
         setMessages(prev => [...prev, {
           role: 'assistant',
-          content: currentTranscript.trim(),
+          content: fullMessage,
           timestamp: new Date().toLocaleTimeString()
         }]);
+        
+        // Check if message might contain course recommendations
+        if (quickDetectCourses(fullMessage)) {
+          console.log('Parsing message for courses:', fullMessage);
+          const courses = await extractCoursesFromMessage(fullMessage);
+          
+          if (courses.length > 0) {
+            console.log('Found courses:', courses);
+            courses.forEach(course => addRecommendation(course));
+            toast.success(`Added ${courses.length} course${courses.length > 1 ? 's' : ''} to recommendations`);
+          }
+        }
+        
         setCurrentTranscript('');
-      }, 500); // Small delay to ensure complete message
+      }, 500);
       return () => clearTimeout(timer);
     }
-  }, [conversation.isSpeaking, currentTranscript]);
+  }, [conversation.isSpeaking, currentTranscript, addRecommendation]);
 
   const sendTextMessage = () => {
     if (!inputValue.trim()) return;
