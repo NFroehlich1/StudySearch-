@@ -39,15 +39,23 @@ const ChatInterface = () => {
       const role = message.source === 'user' ? 'user' : 'assistant';
       
       if (content.trim()) {
-        // Check if this is continuing the current transcript or a new message
         if (role === 'assistant') {
+          // For AI messages, accumulate in current transcript
           setCurrentTranscript(prev => prev + content);
         } else {
-          setMessages(prev => [...prev, {
-            role,
-            content,
-            timestamp: new Date().toLocaleTimeString()
-          }]);
+          // For user messages, add directly to messages
+          setMessages(prev => {
+            // Check if last message is from the same user to avoid duplicates
+            const lastMsg = prev[prev.length - 1];
+            if (lastMsg?.role === role && lastMsg?.content === content) {
+              return prev;
+            }
+            return [...prev, {
+              role,
+              content,
+              timestamp: new Date().toLocaleTimeString()
+            }];
+          });
         }
       }
     },
@@ -91,16 +99,31 @@ const ChatInterface = () => {
 
   const endConversation = async () => {
     // Save any remaining transcript before ending
-    if (currentTranscript) {
+    if (currentTranscript.trim()) {
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: currentTranscript,
+        content: currentTranscript.trim(),
         timestamp: new Date().toLocaleTimeString()
       }]);
       setCurrentTranscript('');
     }
     await conversation.endSession();
   };
+
+  // Automatically commit transcript when AI stops speaking
+  useEffect(() => {
+    if (!conversation.isSpeaking && currentTranscript.trim()) {
+      const timer = setTimeout(() => {
+        setMessages(prev => [...prev, {
+          role: 'assistant',
+          content: currentTranscript.trim(),
+          timestamp: new Date().toLocaleTimeString()
+        }]);
+        setCurrentTranscript('');
+      }, 500); // Small delay to ensure complete message
+      return () => clearTimeout(timer);
+    }
+  }, [conversation.isSpeaking, currentTranscript]);
 
   const sendTextMessage = () => {
     if (!inputValue.trim()) return;
@@ -191,11 +214,29 @@ const ChatInterface = () => {
           ))}
           
           {currentTranscript && (
-            <ChatMessage
-              role="assistant"
-              content={currentTranscript + '...'}
-              timestamp="Now"
-            />
+            <div className="flex gap-3 mb-4 justify-start animate-fade-in">
+              <Card className="max-w-[80%] p-5 bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 relative">
+                <div className="flex items-start gap-3">
+                  <div className="flex-1">
+                    <div className="text-xs font-semibold mb-2 uppercase tracking-wide text-accent flex items-center gap-2">
+                      🎓 Course Guide
+                      <span className="inline-flex gap-0.5">
+                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span>
+                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></span>
+                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></span>
+                      </span>
+                    </div>
+                    <div className="whitespace-pre-wrap leading-relaxed text-[15px] text-foreground">
+                      {currentTranscript}
+                      <span className="inline-block w-1 h-4 bg-accent ml-1 animate-pulse"></span>
+                    </div>
+                    <div className="text-xs opacity-50 mt-3 pt-2 border-t border-border/30">
+                      Speaking now...
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </div>
           )}
         </ScrollArea>
       </div>
