@@ -4,9 +4,13 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Mic, MicOff, Send, Phone, PhoneOff } from 'lucide-react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Mic, Send, Phone, PhoneOff, BookOpen, MessageSquare, FileText } from 'lucide-react';
 import ChatMessage from './ChatMessage';
 import VoiceIndicator from './VoiceIndicator';
+import PDFViewer from './PDFViewer';
+import CourseRecommendations from './CourseRecommendations';
+import { useCourseRecommendations } from '@/hooks/useCourseRecommendations';
 import { toast } from 'sonner';
 
 interface Message {
@@ -22,7 +26,10 @@ const ChatInterface = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [currentTranscript, setCurrentTranscript] = useState('');
+  const [activeTab, setActiveTab] = useState('chat');
+  const [pdfPage, setPdfPage] = useState<number>(1);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { recommendations, addRecommendation, clearRecommendations } = useCourseRecommendations();
 
   const conversation = useConversation({
     onConnect: () => {
@@ -149,6 +156,11 @@ const ChatInterface = () => {
 
   const isConnected = conversation.status === 'connected';
 
+  const handleCourseClick = (page: number) => {
+    setPdfPage(page);
+    setActiveTab('handbook');
+  };
+
   return (
     <div className="flex flex-col h-screen bg-background">
       {/* Header */}
@@ -190,55 +202,87 @@ const ChatInterface = () => {
         </div>
       </div>
 
-      {/* Chat Area */}
-      <div className="flex-1 container max-w-4xl mx-auto px-4 py-6 overflow-hidden">
-        <ScrollArea className="h-full pr-4" ref={scrollRef}>
-          {messages.length === 0 && !isConnected && (
-            <Card className="p-8 text-center border-dashed">
-              <Mic className="h-12 w-12 mx-auto mb-4 text-muted-foreground" />
-              <h3 className="text-lg font-semibold mb-2">Ready to Help You Plan</h3>
-              <p className="text-muted-foreground">
-                Start a voice session to get guidance on your Mechatronics semester planning, 
-                course selection, and program requirements.
-              </p>
-            </Card>
-          )}
-          
-          {messages.map((msg, idx) => (
-            <ChatMessage
-              key={idx}
-              role={msg.role}
-              content={msg.content}
-              timestamp={msg.timestamp}
-            />
-          ))}
-          
-          {currentTranscript && (
-            <div className="flex gap-3 mb-4 justify-start animate-fade-in">
-              <Card className="max-w-[80%] p-5 bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 relative">
-                <div className="flex items-start gap-3">
-                  <div className="flex-1">
-                    <div className="text-xs font-semibold mb-2 uppercase tracking-wide text-accent flex items-center gap-2">
-                      🎓 Course Guide
-                      <span className="inline-flex gap-0.5">
-                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span>
-                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></span>
-                        <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></span>
-                      </span>
+      {/* Main Content Area with Tabs */}
+      <div className="flex-1 container max-w-6xl mx-auto px-4 py-6 overflow-hidden">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="h-full flex flex-col">
+          <TabsList className="grid w-full grid-cols-3 mb-4">
+            <TabsTrigger value="chat" className="flex items-center gap-2">
+              <MessageSquare className="h-4 w-4" />
+              Chat
+            </TabsTrigger>
+            <TabsTrigger value="handbook" className="flex items-center gap-2">
+              <FileText className="h-4 w-4" />
+              Handbook
+            </TabsTrigger>
+            <TabsTrigger value="recommendations" className="flex items-center gap-2">
+              <BookOpen className="h-4 w-4" />
+              Recommendations ({recommendations.length})
+            </TabsTrigger>
+          </TabsList>
+
+          <TabsContent value="chat" className="flex-1 overflow-hidden mt-0">
+            <ScrollArea className="h-full pr-4" ref={scrollRef}>
+              {messages.length === 0 && !isConnected && (
+                <Card className="p-8 text-center border-dashed">
+                  <Phone className="h-12 w-12 mx-auto mb-4 text-muted-foreground" />
+                  <h3 className="text-lg font-semibold mb-2">Ready to Help You Plan</h3>
+                  <p className="text-muted-foreground">
+                    Start a voice session to get guidance on your Mechatronics semester planning, 
+                    course selection, and program requirements.
+                  </p>
+                </Card>
+              )}
+              
+              {messages.map((msg, idx) => (
+                <ChatMessage
+                  key={idx}
+                  role={msg.role}
+                  content={msg.content}
+                  timestamp={msg.timestamp}
+                />
+              ))}
+              
+              {currentTranscript && (
+                <div className="flex gap-3 mb-4 justify-start animate-fade-in">
+                  <Card className="max-w-[80%] p-5 bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 relative">
+                    <div className="flex items-start gap-3">
+                      <div className="flex-1">
+                        <div className="text-xs font-semibold mb-2 uppercase tracking-wide text-accent flex items-center gap-2">
+                          🎓 Course Guide
+                          <span className="inline-flex gap-0.5">
+                            <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span>
+                            <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></span>
+                            <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" style={{ animationDelay: '0.4s' }}></span>
+                          </span>
+                        </div>
+                        <div className="whitespace-pre-wrap leading-relaxed text-[15px] text-foreground">
+                          {currentTranscript}
+                          <span className="inline-block w-1 h-4 bg-accent ml-1 animate-pulse"></span>
+                        </div>
+                        <div className="text-xs opacity-50 mt-3 pt-2 border-t border-border/30">
+                          Speaking now...
+                        </div>
+                      </div>
                     </div>
-                    <div className="whitespace-pre-wrap leading-relaxed text-[15px] text-foreground">
-                      {currentTranscript}
-                      <span className="inline-block w-1 h-4 bg-accent ml-1 animate-pulse"></span>
-                    </div>
-                    <div className="text-xs opacity-50 mt-3 pt-2 border-t border-border/30">
-                      Speaking now...
-                    </div>
-                  </div>
+                  </Card>
                 </div>
-              </Card>
-            </div>
-          )}
-        </ScrollArea>
+              )}
+            </ScrollArea>
+          </TabsContent>
+
+          <TabsContent value="handbook" className="flex-1 overflow-hidden mt-0">
+            <PDFViewer targetPage={pdfPage} />
+          </TabsContent>
+
+          <TabsContent value="recommendations" className="flex-1 overflow-hidden mt-0">
+            <ScrollArea className="h-full pr-4">
+              <CourseRecommendations 
+                courses={recommendations}
+                onCourseClick={handleCourseClick}
+              />
+            </ScrollArea>
+          </TabsContent>
+        </Tabs>
       </div>
 
       {/* Input Area */}
