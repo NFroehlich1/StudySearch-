@@ -34,26 +34,20 @@ const ChatInterface = () => {
     onMessage: (message) => {
       console.log('Message received:', message);
       
-      if (message.type === 'user_transcript') {
-        // User's speech transcribed
-        setMessages(prev => [...prev, {
-          role: 'user',
-          content: message.message.text || '',
-          timestamp: new Date().toLocaleTimeString()
-        }]);
-      } else if (message.type === 'agent_response') {
-        // Agent's response
-        const text = message.message.text || '';
-        setCurrentTranscript(prev => prev + text);
-      } else if (message.type === 'agent_response_complete') {
-        // Agent finished responding
-        if (currentTranscript) {
+      // Message structure: { message: string, source: 'user' | 'ai' }
+      const content = typeof message.message === 'string' ? message.message : '';
+      const role = message.source === 'user' ? 'user' : 'assistant';
+      
+      if (content.trim()) {
+        // Check if this is continuing the current transcript or a new message
+        if (role === 'assistant') {
+          setCurrentTranscript(prev => prev + content);
+        } else {
           setMessages(prev => [...prev, {
-            role: 'assistant',
-            content: currentTranscript,
+            role,
+            content,
             timestamp: new Date().toLocaleTimeString()
           }]);
-          setCurrentTranscript('');
         }
       }
     },
@@ -96,8 +90,16 @@ const ChatInterface = () => {
   };
 
   const endConversation = async () => {
+    // Save any remaining transcript before ending
+    if (currentTranscript) {
+      setMessages(prev => [...prev, {
+        role: 'assistant',
+        content: currentTranscript,
+        timestamp: new Date().toLocaleTimeString()
+      }]);
+      setCurrentTranscript('');
+    }
     await conversation.endSession();
-    setCurrentTranscript('');
   };
 
   const sendTextMessage = () => {
