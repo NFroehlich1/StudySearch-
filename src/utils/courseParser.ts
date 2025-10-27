@@ -20,18 +20,31 @@ export async function extractCoursesFromMessage(message: string): Promise<Parsed
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `Extract all course recommendations from this text. For each course mentioned, provide:
-- Course name (full name)
-- Course code (if mentioned, format: numbers and letters like "2511234")
-- Credits (if mentioned, e.g., "6 ECTS" or "3 credits")
-- Semester (if mentioned, e.g., "WS" for Winter Semester, "SS" for Summer Semester)
-- Page number in handbook (if mentioned or can be inferred)
+              text: `You are analyzing a conversation where an AI course advisor recommends or books courses for a student.
+Extract ALL courses that are being recommended, suggested, or booked from this message.
 
-Text: "${message}"
+Look for phrases like:
+- "I'll add [course name]"
+- "I recommend [course name]"
+- "You should take [course name]"
+- "I'm booking [course name]"
+- "Consider [course name]"
 
-Return ONLY a valid JSON array of objects with structure: [{"name": "...", "code": "...", "credits": "...", "semester": "...", "page": number}]
-If no courses found, return empty array: []
-Do not include any markdown formatting or explanation, just the raw JSON array.`
+For each course found, extract:
+- Course name (full name, e.g., "Machine Learning")
+- Course code (if mentioned, e.g., "2511234" - usually 7 digits)
+- Credits (if mentioned, e.g., "6" for 6 ECTS)
+- Semester (if mentioned, e.g., "WS" or "SS")
+- Page number in handbook (if mentioned, otherwise try to infer from context or leave empty)
+
+Message to analyze:
+"${message}"
+
+IMPORTANT: Return ONLY a valid JSON array with this exact structure:
+[{"name": "Course Name", "code": "1234567", "credits": "6", "semester": "WS", "page": 42}]
+
+If no courses are found, return: []
+Do not include markdown formatting, explanations, or any other text - just the JSON array.`
             }]
           }],
           generationConfig: {
@@ -67,13 +80,14 @@ Do not include any markdown formatting or explanation, just the raw JSON array.`
 // Fallback regex-based parser for quick detection
 export function quickDetectCourses(message: string): boolean {
   const patterns = [
-    /\brecommend\b/i,
-    /\bsuggest\b/i,
-    /\badd\b.*\bcourse\b/i,
-    /\btake\b.*\bcourse\b/i,
-    /\benroll\b/i,
-    /\bconsider\b.*\bcourse\b/i,
+    /\b(recommend|suggesting|suggest)\b/i,
+    /\b(I'll add|I'm adding|adding|add)\b.*\bcourse\b/i,
+    /\b(take|taking|enroll|enrolling|book|booking)\b/i,
+    /\bconsider\b/i,
+    /\b(here are|here's)\b.*\bcourse/i,
+    /\bECTS\b/i,  // Credit system
     /\d{7}/,  // 7-digit course codes
+    /\b(WS|SS)\b/,  // Semester codes
   ];
   
   return patterns.some(pattern => pattern.test(message));
