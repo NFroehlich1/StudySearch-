@@ -33,6 +33,20 @@ const ChatInterface = () => {
   const { recommendations, addRecommendation, clearRecommendations } = useCourseRecommendations();
 
   const conversation = useConversation({
+    clientTools: {
+      add_course_recommendation: (parameters: {
+        name: string;
+        code?: string;
+        credits?: string;
+        semester?: string;
+        page?: number;
+      }) => {
+        console.log('📚 Client tool called: add_course_recommendation', parameters);
+        addRecommendation(parameters);
+        toast.success(`Added ${parameters.name} to recommendations!`);
+        return `Successfully added ${parameters.name} to the Recommendations tab`;
+      }
+    },
     onConnect: () => {
       toast.success('Connected to Course Guide');
     },
