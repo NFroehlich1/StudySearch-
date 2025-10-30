@@ -1,4 +1,6 @@
-const GEMINI_API_KEY = 'AIzaSyAxEZg9Aa3qvJDrfDbAAm3_bPwkFsJLo1I';
+import { getModuleByName } from './moduleLookup';
+
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 export interface ParsedCourse {
   name: string;
@@ -6,14 +8,13 @@ export interface ParsedCourse {
   credits?: string;
   semester?: string;
   page?: number;
+  ects?: number;
 }
 
 export async function extractCoursesFromMessage(message: string): Promise<ParsedCourse[]> {
   try {
-    console.log('🔍 Analyzing message for courses:', message.substring(0, 200) + '...');
-    
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${GEMINI_API_KEY}`,
       {
         method: 'POST',
         headers: {
@@ -22,94 +23,75 @@ export async function extractCoursesFromMessage(message: string): Promise<Parsed
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `Analyze this conversation message from a course advisor AI and extract ALL courses being recommended, suggested, or booked.
+              text: `Extract all course recommendations from this text. For each course mentioned, provide:
+- Course name (full name)
+- Course code (if mentioned, format: numbers and letters like "2511234")
+- Credits (if mentioned, e.g., "6 ECTS" or "3 credits")
+- Semester (if mentioned, e.g., "WS" for Winter Semester, "SS" for Summer Semester)
+- Page number in handbook (if mentioned or can be inferred)
 
-Message: "${message}"
+Text: "${message}"
 
-Look for phrases like:
-- "I'll add [course]"
-- "I recommend [course]"
-- "You should take [course]"
-- "I'm booking [course]"
-- "Consider [course]"
-
-Extract the course details and call the extract_courses function with the data.`
+Return ONLY a valid JSON array of objects with structure: [{"name": "...", "code": "...", "credits": "...", "semester": "...", "page": number}]
+If no courses found, return empty array: []
+Do not include any markdown formatting or explanation, just the raw JSON array.`
             }]
           }],
-          tools: [{
-            function_declarations: [{
-              name: "extract_courses",
-              description: "Extract course recommendations with structured data",
-              parameters: {
-                type: "object",
-                properties: {
-                  courses: {
-                    type: "array",
-                    description: "List of course recommendations found in the message",
-                    items: {
-                      type: "object",
-                      properties: {
-                        name: {
-                          type: "string",
-                          description: "Full course name"
-                        },
-                        code: {
-                          type: "string",
-                          description: "Course code (7-digit number if available)"
-                        },
-                        credits: {
-                          type: "string",
-                          description: "Number of ECTS credits"
-                        },
-                        semester: {
-                          type: "string",
-                          description: "Semester offered (WS or SS)"
-                        },
-                        page: {
-                          type: "number",
-                          description: "Page number in handbook if mentioned"
-                        }
-                      },
-                      required: ["name"]
-                    }
-                  }
-                },
-                required: ["courses"]
-              }
-            }]
-          }],
-          tool_config: {
-            function_calling_config: {
-              mode: "ANY"
-            }
+          generationConfig: {
+            temperature: 0.1,
+            maxOutputTokens: 1000,
+            responseMimeType: "application/json"
           }
         }),
       }
     );
 
     if (!response.ok) {
-      console.error('❌ Gemini API error:', response.status, await response.text());
+      console.error('Gemini API error:', response.status);
       return [];
     }
 
     const data = await response.json();
-    console.log('📥 Gemini response:', JSON.stringify(data, null, 2));
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '[]';
     
-    // Extract function call result
-    const functionCall = data.candidates?.[0]?.content?.parts?.find(
-      (part: any) => part.functionCall
-    );
+    // Clean up the response - remove markdown code blocks if present
+    const cleanedText = text
+      .replace(/```json\n?/g, '')
+      .replace(/```\n?/g, '')
+      .trim();
     
-    if (functionCall?.functionCall?.args?.courses) {
-      const courses = functionCall.functionCall.args.courses;
-      console.log('✅ Extracted courses:', courses);
-      return Array.isArray(courses) ? courses : [];
+    const courses = JSON.parse(cleanedText);
+    if (!Array.isArray(courses)) {
+      return [];
     }
-    
-    console.log('⚠️ No courses found in function call');
-    return [];
+
+    const normalized = await Promise.all(
+      courses.map(async (rawCourse: any) => {
+        if (!rawCourse || typeof rawCourse.name !== 'string') return null;
+
+        const rawName = rawCourse.name.trim();
+        const moduleInfo = await getModuleByName(rawName);
+        const ectsValue = typeof rawCourse.ects === 'number'
+          ? rawCourse.ects
+          : moduleInfo?.ects ?? undefined;
+        const page = rawCourse.page ?? moduleInfo?.page ?? undefined;
+
+        const normalizedCourse: ParsedCourse = {
+          name: moduleInfo?.name ?? rawName,
+          code: rawCourse.code ?? undefined,
+          credits: rawCourse.credits ?? (ectsValue !== undefined ? `${ectsValue} ECTS` : undefined),
+          semester: rawCourse.semester ?? undefined,
+          page,
+          ects: ectsValue,
+        };
+
+        return normalizedCourse;
+      })
+    );
+
+    return normalized.filter((course): course is ParsedCourse => course !== null);
   } catch (error) {
-    console.error('❌ Error parsing courses:', error);
+    console.error('Error parsing courses:', error);
     return [];
   }
 }

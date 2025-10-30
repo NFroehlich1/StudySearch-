@@ -1,22 +1,27 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { BookOpen, ExternalLink } from 'lucide-react';
+import { BookOpen, ExternalLink, Trash2 } from 'lucide-react';
 
 export interface CourseRecommendation {
+  id?: string;
   name: string;
   code?: string;
   credits?: string;
   semester?: string;
   page?: number;
+  color?: string;
+  ects?: number;
+  notes?: string;
 }
 
 interface CourseRecommendationsProps {
   courses: CourseRecommendation[];
   onCourseClick: (page: number) => void;
+  onDeleteCourse?: (courseId: string) => void;
 }
 
-const CourseRecommendations = ({ courses, onCourseClick }: CourseRecommendationsProps) => {
+const CourseRecommendations = ({ courses, onCourseClick, onDeleteCourse }: CourseRecommendationsProps) => {
   if (courses.length === 0) {
     return (
       <Card className="p-8 text-center border-dashed">
@@ -38,7 +43,7 @@ const CourseRecommendations = ({ courses, onCourseClick }: CourseRecommendations
       
       {courses.map((course, idx) => (
         <Card 
-          key={idx} 
+          key={course.id || idx} 
           className="p-4 hover:shadow-md transition-all duration-200 border-border/50 hover:border-primary/30"
         >
           <div className="flex items-start justify-between gap-3">
@@ -46,21 +51,39 @@ const CourseRecommendations = ({ courses, onCourseClick }: CourseRecommendations
               <h4 className="font-semibold text-foreground mb-1">{course.name}</h4>
               <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
                 {course.code && <span className="font-mono">{course.code}</span>}
-                {course.credits && <span>• {course.credits} credits</span>}
+                {course.ects && <span>• {course.ects} ECTS</span>}
+                {!course.ects && course.credits && <span>• {course.credits}</span>}
                 {course.semester && <span>• {course.semester}</span>}
               </div>
             </div>
-            {course.page && (
-              <Button
-                onClick={() => onCourseClick(course.page!)}
-                variant="outline"
-                size="sm"
-                className="shrink-0"
-              >
-                <ExternalLink className="h-4 w-4 mr-1" />
-                View
-              </Button>
-            )}
+            <div className="flex items-center gap-2">
+              {onDeleteCourse && course.id && (
+                <Button
+                  onClick={() => {
+                    if (confirm(`Are you sure you want to remove "${course.name}" from recommendations?`)) {
+                      onDeleteCourse(course.id);
+                    }
+                  }}
+                  variant="ghost"
+                  size="icon"
+                  className="shrink-0 text-destructive hover:text-destructive"
+                  title="Remove recommendation"
+                >
+                  <Trash2 className="h-4 w-4" />
+                </Button>
+              )}
+              {course.page && (
+                <Button
+                  onClick={() => onCourseClick(course.page!)}
+                  variant="outline"
+                  size="sm"
+                  className="shrink-0"
+                >
+                  <ExternalLink className="h-4 w-4 mr-1" />
+                  View
+                </Button>
+              )}
+            </div>
           </div>
         </Card>
       ))}

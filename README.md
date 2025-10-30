@@ -1,40 +1,61 @@
-# Welcome to your Lovable project
+# StudySearch - KIT Mechatronics Course Planner
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/3d94c844-5c1e-411a-8513-92c2923a1780
+StudySearch is an AI-powered course planning tool for KIT Mechatronics and Information Technology students. It combines conversational AI with a comprehensive module library to help students plan their semester efficiently.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- 🤖 **AI Conversation Interface**: Chat with an AI course guide powered by ElevenLabs
+- 📚 **Module Library**: Browse and search through 300+ official KIT modules
+- 📊 **Semester Planner**: Drag-and-drop courses into semesters with ECTS tracking
+- 🔍 **Smart Filters**: Filter modules by term, type, specialization area, and subcategory
+- 📄 **PDF Handbook Integration**: Direct links to module pages in the official handbook
+- ✨ **Automated Course Extraction**: AI automatically extracts course bookings from conversations
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3d94c844-5c1e-411a-8513-92c2923a1780) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js 18+ installed ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd StudySearch
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Set up environment variables
+cp .env.example .env
+
+# Edit .env with your API keys:
+# - VITE_GEMINI_API_KEY: Get from https://makersuite.google.com/app/apikey
+# - VITE_ELEVENLABS_API_KEY: Get from https://elevenlabs.io
+# - VITE_ELEVENLABS_AGENT_ID: Your ElevenLabs agent ID
+
+# Step 5: Start the development server
 npm run dev
 ```
+
+Open `http://localhost:8080` in your browser.
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
+VITE_ELEVENLABS_AGENT_ID=your_agent_id_here
+```
+
+**Important**: Never commit your `.env` file to version control!
 
 **Edit a file directly in GitHub**
 

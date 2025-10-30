@@ -1,0 +1,6131 @@
+[
+    {
+      "name": "Adaptive Optics",
+      "ects": 3,
+      "page": 54,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Artificial Intelligence",
+      "ects": 6,
+      "page": 56,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Communications Engineering",
+      "ects": 6,
+      "page": 57,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Analog Circuit Design",
+      "ects": 4,
+      "page": 58,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Analysis Tools for Combustion Diagnostics",
+      "ects": 4,
+      "page": 59,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Antennas and Beamforming",
+      "ects": 4,
+      "page": 60,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Applied Information Theory",
+      "ects": 6,
+      "page": 61,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Artificial Intelligence & IT-Security",
+      "ects": 6,
+      "page": 62,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Automated Visual Inspection and Image Processing",
+      "ects": 6,
+      "page": 63,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Automotive Engineering I",
+      "ects": 8,
+      "page": 64,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Automotive Engineering II",
+      "ects": 4,
+      "page": 65,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Automotive Vision",
+      "ects": 6,
+      "page": 66,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Automotive Vision",
+      "ects": 6,
+      "page": 67,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Basics of Converter Control",
+      "ects": 3,
+      "page": 69,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Basics of Technical Logistics II",
+      "ects": 6,
+      "page": 70,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Batteries and Fuel Cells Laboratory",
+      "ects": 6,
+      "page": 71,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Batteries, Fuel Cells, and Electrolysis",
+      "ects": 6,
+      "page": 72,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Battery and Fuel Cells Systems",
+      "ects": 3,
+      "page": 74,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Bioelectric Signals",
+      "ects": 3,
+      "page": 75,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Biologically Inspired Robots",
+      "ects": 3,
+      "page": 76,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Biomechanics: Design in Nature and Inspired by Nature",
+      "ects": 4,
+      "page": 78,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine I",
+      "ects": 4,
+      "page": 79,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine II",
+      "ects": 4,
+      "page": 81,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine III",
+      "ects": 4,
+      "page": 83,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "BioMEMS - Microsystemtechnolgy for Life-Science and Medicine IV",
+      "ects": 4,
+      "page": 84,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "CAD Engineering Project for Intelligent Systems",
+      "ects": 3,
+      "page": 85,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "CAE-Workshop",
+      "ects": 4,
+      "page": 86,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Channel Coding: Algebraic Methods for Communications and Storage",
+      "ects": 3,
+      "page": 87,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "CO2-Neutral Combustion Engines and their Fuels I",
+      "ects": 4,
+      "page": 88,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "CO2-Neutral Combustion Engines and their Fuels II",
+      "ects": 5,
+      "page": 89,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Cognitive Automobiles - Laboratory",
+      "ects": 6,
+      "page": 90,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Combined Cycle Power Plants",
+      "ects": 6,
+      "page": 92,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Communication Systems and Protocols",
+      "ects": 5,
+      "page": 93,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Communications Engineering Lab",
+      "ects": 6,
+      "page": 95,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Components of Power Systems",
+      "ects": 3,
+      "page": 96,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Computational Fluid Dynamics (CFD) for Energy Technologies",
+      "ects": 4,
+      "page": 98,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Computational Intelligence",
+      "ects": 4,
+      "page": 99,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Control of Mobile Machines",
+      "ects": 4,
+      "page": 100,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Control of Power-Electronic Systems",
+      "ects": 6,
+      "page": 101,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Control Technology",
+      "ects": 4,
+      "page": 102,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Current Topics on BioMEMS",
+      "ects": 4,
+      "page": 103,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Cyber-Physical Modeling",
+      "ects": 6,
+      "page": 104,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Data Analytics for Engineers",
+      "ects": 5,
+      "page": 106,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Data-Driven Algorithms in Vehicle Technology",
+      "ects": 4,
+      "page": 107,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Decision-Making and Motion Planning for Automated Driving",
+      "ects": 6,
+      "page": 108,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning and Neural Networks",
+      "ects": 6,
+      "page": 109,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning for Computer Vision I: Basics",
+      "ects": 3,
+      "page": 110,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning for Computer Vision II: Advanced Topics",
+      "ects": 3,
+      "page": 111,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning for Engineers",
+      "ects": 6,
+      "page": 112,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Design and Development of Mobile Machines",
+      "ects": 4,
+      "page": 113,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Design and Optimization of Conventional and Electrified Automotive Transmissions",
+      "ects": 4,
+      "page": 114,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Design of Electrical Machines",
+      "ects": 5,
+      "page": 116,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Design Thinking",
+      "ects": 3,
+      "page": 117,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Design with Plastics",
+      "ects": 4,
+      "page": 118,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Development of Automated Production Systems",
+      "ects": 4,
+      "page": 119,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Development of Hybrid Powertrains",
+      "ects": 4,
+      "page": 120,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Development of Oil-Hydraulic Powertrain Systems",
+      "ects": 4,
+      "page": 121,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Beam-Forming for Imaging Radar",
+      "ects": 4,
+      "page": 122,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Circuit Design",
+      "ects": 4,
+      "page": 123,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Control",
+      "ects": 4,
+      "page": 124,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Hardware Design Laboratory",
+      "ects": 6,
+      "page": 125,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Hardware Design Laboratory",
+      "ects": 6,
+      "page": 126,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digital Twin Engineering",
+      "ects": 4,
+      "page": 127,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Digitalization of Products, Services & Production",
+      "ects": 4,
+      "page": 129,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Distributed Discrete Event Systems",
+      "ects": 4,
+      "page": 130,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Drive System Engineering B: Stationary Machinery",
+      "ects": 4,
+      "page": 131,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Drive Train of Mobile Machines",
+      "ects": 4,
+      "page": 133,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Dynamics of Electro-Mechanical Systems",
+      "ects": 5,
+      "page": 134,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Dynamics of the Automotive Drive Train",
+      "ects": 4,
+      "page": 135,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Electric Drives and Power Electronics Lab",
+      "ects": 6,
+      "page": 136,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Electric Drives for E-Mobility",
+      "ects": 4,
+      "page": 138,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Electric Power Transmission & Grid Control",
+      "ects": 6,
+      "page": 139,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Electrical Energy Systems Lab",
+      "ects": 6,
+      "page": 140,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Electrocatalysis",
+      "ects": 5,
+      "page": 141,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Elements of Technical Logistics",
+      "ects": 4,
+      "page": 142,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Elements of Technical Logistics incl. Project",
+      "ects": 6,
+      "page": 143,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Energy Informatics",
+      "ects": 10,
+      "page": 144,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Energy Storage and Network Integration",
+      "ects": 4,
+      "page": 145,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Energy Systems I - Renewable Energy",
+      "ects": 4,
+      "page": 147,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Energy Topology and Resilience",
+      "ects": 4,
+      "page": 148,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Engine Measurement Techniques",
+      "ects": 4,
+      "page": 149,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Engineering High-Density Molecular Arrays: Tools, Techniques, and AI-Driven Solutions for Biomedical Diagnostics",
+      "ects": 4,
+      "page": 150,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Engineering Materials for the Energy Transition",
+      "ects": 4,
+      "page": 152,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fabrication Processes in Microsystem Technology",
+      "ects": 4,
+      "page": 153,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Field Propagation and Coherence",
+      "ects": 4,
+      "page": 154,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Flows and Heat Transfer in Energy Technology",
+      "ects": 4,
+      "page": 156,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals in the Development of Commercial Vehicles",
+      "ects": 4,
+      "page": 157,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals of Combustion I",
+      "ects": 4,
+      "page": 159,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals of Combustion II",
+      "ects": 4,
+      "page": 160,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals of Energy Technology",
+      "ects": 8,
+      "page": 161,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals of Reactor Safety for the Operation and Dismantling of Nuclear Power Plants",
+      "ects": 4,
+      "page": 162,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Technology A",
+      "ects": 4,
+      "page": 163,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Technology B",
+      "ects": 4,
+      "page": 164,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Handling Characteristics of Motor Vehicles I",
+      "ects": 4,
+      "page": 165,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Handling Characteristics of Motor Vehicles II",
+      "ects": 4,
+      "page": 166,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Hardware Modeling and Simulation",
+      "ects": 4,
+      "page": 167,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Hardware Synthesis and Optimization",
+      "ects": 6,
+      "page": 169,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Hardware/Software Co-Design",
+      "ects": 6,
+      "page": 170,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Heat and Mass Transfer",
+      "ects": 4,
+      "page": 172,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Heat Pumps",
+      "ects": 4,
+      "page": 173,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "High-Voltage Technology",
+      "ects": 6,
+      "page": 174,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "High-Voltage Test Technique",
+      "ects": 4,
+      "page": 175,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Holistic Approach of Managing Power Plant Operation under Uncertainty and Volatility",
+      "ects": 4,
+      "page": 176,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Hot Research Topics in AI for Engineering Applications",
+      "ects": 4,
+      "page": 177,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Human Brain and Central Nervous System: Anatomy, Information Transfer, Signal Processing, Neurophysiology and Therapy",
+      "ects": 3,
+      "page": 178,
+      "term": "Both",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Human-Machine-Interaction in Anthropomatics: Basics",
+      "ects": 3,
+      "page": 179,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Humanoid Robots - Seminar",
+      "ects": 3,
+      "page": 180,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Hydrogen and reFuels - Energy Conversion in Combustion Engines",
+      "ects": 4,
+      "page": 181,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Industrial Circuitry",
+      "ects": 3,
+      "page": 182,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Industrial Mobile Robotics Lab",
+      "ects": 4,
+      "page": 183,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Information Fusion",
+      "ects": 4,
+      "page": 185,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Information Systems and Supply Chain Management",
+      "ects": 3,
+      "page": 187,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Information Systems in Power Engineering Lab",
+      "ects": 6,
+      "page": 188,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Information Technology in Industrial Automation Systems",
+      "ects": 3,
+      "page": 189,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Innovation and Project Management in Rail Vehicle Engineering",
+      "ects": 4,
+      "page": 190,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Innovation2Business – Innovation Strategy in the Industrial Corporate Practice",
+      "ects": 4,
+      "page": 191,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Innovative Concepts for Programming Industrial Robots",
+      "ects": 4,
+      "page": 192,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Innovative Nuclear Systems",
+      "ects": 4,
+      "page": 193,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Integrated Intelligent Sensors",
+      "ects": 3,
+      "page": 194,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Integrated Photonics",
+      "ects": 6,
+      "page": 195,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Integrated Product Development",
+      "ects": 18,
+      "page": 197,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Integrated Systems and Circuits",
+      "ects": 4,
+      "page": 199,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Interdisciplinary Qualifications",
+      "ects": 8,
+      "page": 200,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Interdisciplinary Qualifications"
+        }
+      ]
+    },
+    {
+      "name": "International Production Engineering",
+      "ects": 8,
+      "page": 202,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction into Energy Economics",
+      "ects": 5,
+      "page": 204,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Automotive and Industrial Lidar Technology",
+      "ects": 3,
+      "page": 205,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Bionics",
+      "ects": 4,
+      "page": 206,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Microsystem Technology I",
+      "ects": 4,
+      "page": 207,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Microsystem Technology II",
+      "ects": 4,
+      "page": 208,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Multi-Body Dynamics",
+      "ects": 8,
+      "page": 209,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Nanotechnology",
+      "ects": 4,
+      "page": 211,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Nuclear Energy",
+      "ects": 4,
+      "page": 212,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "IT/OT-Security Seminar",
+      "ects": 4,
+      "page": 213,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "IT-Fundamentals of Logistics: Opportunities for Digital Transformation",
+      "ects": 4,
+      "page": 215,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Lab Course on Nanoelectronics",
+      "ects": 6,
+      "page": 217,
+      "term": "Both",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Exercise in Energy Technology",
+      "ects": 4,
+      "page": 218,
+      "term": "Both",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory FPGA Based Circuit Design",
+      "ects": 6,
+      "page": 219,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory in Software Engineering",
+      "ects": 6,
+      "page": 220,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Mechatronics",
+      "ects": 4,
+      "page": 221,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Nanotechnology",
+      "ects": 6,
+      "page": 222,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Optoelectronics",
+      "ects": 6,
+      "page": 224,
+      "term": "Both",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Solar Energy",
+      "ects": 6,
+      "page": 225,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Leadership in Interdisciplinary Teams",
+      "ects": 4,
+      "page": 227,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Liberalised Power Markets",
+      "ects": 6,
+      "page": 228,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Lighting Engineering",
+      "ects": 4,
+      "page": 230,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Lightweight Engineering Design",
+      "ects": 4,
+      "page": 231,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Localization of Mobile Agents",
+      "ects": 6,
+      "page": 232,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Logistics and Supply Chain Management",
+      "ects": 9,
+      "page": 233,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Dynamics",
+      "ects": 5,
+      "page": 235,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning - Basic Methods",
+      "ects": 5,
+      "page": 236,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning - Foundations and Algorithms",
+      "ects": 6,
+      "page": 237,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning 1",
+      "ects": 5,
+      "page": 238,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning 2",
+      "ects": 5,
+      "page": 239,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning and Optimization in Energy Systems",
+      "ects": 4,
+      "page": 240,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning for Robotic Systems 1",
+      "ects": 5,
+      "page": 241,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning for Robotic Systems 2",
+      "ects": 5,
+      "page": 243,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning for Robotics",
+      "ects": 6,
+      "page": 244,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Tools and Industrial Handling",
+      "ects": 8,
+      "page": 245,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Machine Vision",
+      "ects": 8,
+      "page": 246,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Magnet Technology of Fusion Reactors",
+      "ects": 4,
+      "page": 249,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Master's Thesis",
+      "ects": 30,
+      "page": 250,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": []
+    },
+    {
+      "name": "Materials for Lightweight Construction",
+      "ects": 4,
+      "page": 251,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Materials Recycling and Sustainability",
+      "ects": 4,
+      "page": 252,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Methods in Fluid Mechanics",
+      "ects": 6,
+      "page": 253,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Methods in Hydraulics",
+      "ects": 6,
+      "page": 254,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Properties of Nanomaterials and Microsystems",
+      "ects": 4,
+      "page": 255,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Mechatronic Measurement Systems Lab",
+      "ects": 6,
+      "page": 256,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Medical Image Processing for Guidance and Navigation",
+      "ects": 9,
+      "page": 257,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Micro System Simulation",
+      "ects": 4,
+      "page": 260,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microactuators",
+      "ects": 4,
+      "page": 262,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microenergy Technologies",
+      "ects": 4,
+      "page": 264,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microsystem Product Design for Young Entrepreneurs",
+      "ects": 4,
+      "page": 266,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        }
+      ]
+    },
+    {
+      "name": "Microsystem Technology",
+      "ects": 3,
+      "page": 267,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microwave Engineering Lab",
+      "ects": 6,
+      "page": 268,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microwaves Measurement Techniques",
+      "ects": 4,
+      "page": 269,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Microwaves Measurement Techniques",
+      "ects": 4,
+      "page": 270,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Miniaturized Heat Transfer",
+      "ects": 4,
+      "page": 271,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "MMIC Design Laboratory",
+      "ects": 6,
+      "page": 272,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Machines",
+      "ects": 8,
+      "page": 273,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modeling Physiological Systems",
+      "ects": 6,
+      "page": 274,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modern Control Concepts I",
+      "ects": 4,
+      "page": 275,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modern Control Concepts II",
+      "ects": 4,
+      "page": 276,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modern Control Concepts III",
+      "ects": 4,
+      "page": 278,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modern Radio Systems Engineering",
+      "ects": 6,
+      "page": 280,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Modern VLSI Technologies",
+      "ects": 6,
+      "page": 281,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Motion in Human and Machine - Seminar",
+      "ects": 3,
+      "page": 282,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Motor Vehicle Laboratory",
+      "ects": 4,
+      "page": 283,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Multivariable Control Systems",
+      "ects": 6,
+      "page": 284,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Nano- and Quantum Electronics",
+      "ects": 6,
+      "page": 286,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "NMR Micro Probe Hardware Conception and Construction",
+      "ects": 4,
+      "page": 288,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        }
+      ]
+    },
+    {
+      "name": "Nonlinear Control Systems",
+      "ects": 3,
+      "page": 289,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Nonlinear Optics",
+      "ects": 6,
+      "page": 290,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Novel Actuators and Sensors",
+      "ects": 4,
+      "page": 292,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Power and Reactor Technology",
+      "ects": 4,
+      "page": 293,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Power Plant Technology",
+      "ects": 4,
+      "page": 294,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Numerical Fluid Mechanics",
+      "ects": 4,
+      "page": 296,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Numerical Methods",
+      "ects": 5,
+      "page": 297,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Numerical Methods with Programming Practice",
+      "ects": 6,
+      "page": 299,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optical Design Lab",
+      "ects": 6,
+      "page": 301,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optical Engineering and Machine Vision",
+      "ects": 6,
+      "page": 302,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optical Transmitters and Receivers",
+      "ects": 6,
+      "page": 304,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optimal Control",
+      "ects": 6,
+      "page": 305,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optimal Control and Estimation",
+      "ects": 3,
+      "page": 307,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Optoelectronic Measurement Engineering",
+      "ects": 3,
+      "page": 308,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Organ Support Systems",
+      "ects": 4,
+      "page": 309,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Organic and Flexible Electronics",
+      "ects": 3,
+      "page": 310,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Pattern Recognition",
+      "ects": 6,
+      "page": 311,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Photonics and Communications Lab",
+      "ects": 6,
+      "page": 312,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Photovoltaics",
+      "ects": 6,
+      "page": 313,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Physical Basics of Laser Technology",
+      "ects": 5,
+      "page": 316,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Plasma Sources",
+      "ects": 4,
+      "page": 318,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Polymers in MEMS A: Chemistry, Synthesis and Applications",
+      "ects": 4,
+      "page": 320,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Polymers in MEMS B: Physics, Microstructuring and Applications",
+      "ects": 4,
+      "page": 322,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Polymers in MEMS C: Biopolymers and Bioplastics",
+      "ects": 4,
+      "page": 324,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power Electronic Systems",
+      "ects": 6,
+      "page": 326,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power Electronics",
+      "ects": 6,
+      "page": 328,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power System Protection and Automation",
+      "ects": 3,
+      "page": 330,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power Systems and Economy",
+      "ects": 3,
+      "page": 332,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power Tool Design",
+      "ects": 4,
+      "page": 334,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Power Tool Design Project Work",
+      "ects": 8,
+      "page": 336,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Aspects of Electrical Drives",
+      "ects": 4,
+      "page": 337,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Course Polymers in MEMS",
+      "ects": 2,
+      "page": 339,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Course: Autonomous Driving",
+      "ects": 6,
+      "page": 340,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Course: Machine Learning and Intelligent Systems",
+      "ects": 8,
+      "page": 341,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Course: Smart Energy System",
+      "ects": 6,
+      "page": 342,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Course: Software Development and Application of Mobile, Bio-Inspired Robots",
+      "ects": 6,
+      "page": 343,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Machine Learning",
+      "ects": 6,
+      "page": 344,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Tools for Control Engineers",
+      "ects": 4,
+      "page": 346,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Practical Training in Basics of Microsystem Technology",
+      "ects": 4,
+      "page": 347,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Principles of Whole Vehicle Engineering I",
+      "ects": 2,
+      "page": 348,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Principles of Whole Vehicle Engineering II",
+      "ects": 2,
+      "page": 349,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Probabilistic Measurement and Estimation",
+      "ects": 4,
+      "page": 350,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Product- and Production-Concepts for modern Automobiles",
+      "ects": 4,
+      "page": 351,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Product Development - Methods of Product Engineering",
+      "ects": 6,
+      "page": 352,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Production Techniques Laboratory",
+      "ects": 4,
+      "page": 354,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Project Management in the Development of Products for Safety-Critical Applications",
+      "ects": 4,
+      "page": 356,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Project Workshop: Automotive Engineering",
+      "ects": 6,
+      "page": 358,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Python Algorithms for Automotive Engineering",
+      "ects": 4,
+      "page": 359,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Quality Management",
+      "ects": 4,
+      "page": 361,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Detectors and Sensors",
+      "ects": 6,
+      "page": 362,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Machine Learning",
+      "ects": 3,
+      "page": 363,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Machines I",
+      "ects": 4,
+      "page": 364,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Machines II",
+      "ects": 4,
+      "page": 365,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Radio-Frequency Electronics",
+      "ects": 6,
+      "page": 366,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Rail System Technology",
+      "ects": 4,
+      "page": 367,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Rail Vehicle Technology",
+      "ects": 4,
+      "page": 368,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Railway System Digitalisation",
+      "ects": 4,
+      "page": 370,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Railways in the Transportation Market",
+      "ects": 4,
+      "page": 372,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Re:Invent - Revolutionary Business Models as the Basis for Product Innovations",
+      "ects": 4,
+      "page": 373,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Reactor Physics",
+      "ects": 4,
+      "page": 375,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Reactor Safety 1: Fundamentals",
+      "ects": 4,
+      "page": 376,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Real Time Control of Electrical Drives",
+      "ects": 6,
+      "page": 377,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Reinforcement Learning",
+      "ects": 6,
+      "page": 378,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Reliability and Test Engineering",
+      "ects": 5,
+      "page": 380,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Renewable Energy-Resources, Technologies and Economics",
+      "ects": 4,
+      "page": 382,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Robotics - Practical Course",
+      "ects": 6,
+      "page": 383,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Robotics II - Humanoid Robotics",
+      "ects": 3,
+      "page": 384,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Robotics III - Sensors and Perception in Robotics",
+      "ects": 3,
+      "page": 385,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Robotics, Automation, and Systems Control Lab",
+      "ects": 6,
+      "page": 386,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seamless Engineering",
+      "ects": 9,
+      "page": 388,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Data-Mining in Production",
+      "ects": 3,
+      "page": 390,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Electrocatalysis",
+      "ects": 3,
+      "page": 391,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Embedded Systems",
+      "ects": 4,
+      "page": 392,
+      "term": "Both",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar for Rail System Technology",
+      "ects": 3,
+      "page": 393,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Industrial Process and Plant Engineering",
+      "ects": 4,
+      "page": 394,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Intelligent Industrial Robots",
+      "ects": 3,
+      "page": 396,
+      "term": "Both",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar New Power Electronic Systems and Technologies",
+      "ects": 4,
+      "page": 397,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar Novel Concepts for Solar Energy Harvesting",
+      "ects": 3,
+      "page": 399,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar: Bionic Algorithms and Robot Technologies",
+      "ects": 3,
+      "page": 400,
+      "term": "Irregular",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Seminar: Energy Informatics",
+      "ects": 4,
+      "page": 401,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Sensors",
+      "ects": 3,
+      "page": 402,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Signal Processing Lab",
+      "ects": 6,
+      "page": 403,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Signal Processing Methods",
+      "ects": 6,
+      "page": 404,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Signal Processing with Nonlinear Fourier Transforms and Koopman Operators",
+      "ects": 6,
+      "page": 406,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Simulation and Optimization in Robotics and Biomechanics",
+      "ects": 6,
+      "page": 408,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Simulation with Lumped Parameters",
+      "ects": 4,
+      "page": 409,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "ects": 3,
+      "page": 410,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Solar Energy",
+      "ects": 6,
+      "page": 411,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Solar Thermal Energy Systems",
+      "ects": 4,
+      "page": 413,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Spaceborne Radar Remote Sensing",
+      "ects": 6,
+      "page": 415,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Stochastic Information Processing",
+      "ects": 6,
+      "page": 416,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Strategic Product Development - Identification of Potentials of Innovative Products",
+      "ects": 4,
+      "page": 417,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Structural Materials",
+      "ects": 6,
+      "page": 418,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Student Innovation Lab",
+      "ects": 15,
+      "page": 419,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Autonomous Systems and AI",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Automation, Control, and Robotics",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Superconducting Magnet Technology",
+      "ects": 4,
+      "page": 422,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Superconducting Power Systems",
+      "ects": 4,
+      "page": 424,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Sustainable Product Engineering: Sustainable Product Design - Long-term Business Success with Sustainably Developed Products",
+      "ects": 4,
+      "page": 425,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "System Integration and Communication Structures in Industry 4.0 and IoT",
+      "ects": 3,
+      "page": 427,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "System Integration in Micro- and Nanotechnology",
+      "ects": 4,
+      "page": 429,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "System Integration in Micro- and Nanotechnology 2",
+      "ects": 4,
+      "page": 430,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "System-on-Chip Laboratory",
+      "ects": 6,
+      "page": 431,
+      "term": "WS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Micro System Technology",
+          "subcategory": "Internship/Lab Course"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Systems and Software Engineering",
+      "ects": 6,
+      "page": 432,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – Methodical"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Mandatory Electives – General"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Industrial Informatics and Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Technical Design in Product Development",
+      "ects": 4,
+      "page": 434,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Technical Optics",
+      "ects": 5,
+      "page": 436,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Thermal Solar Energy",
+      "ects": 4,
+      "page": 437,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Thermal Turbomachines I",
+      "ects": 8,
+      "page": 439,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Thermal-Fluid-Dynamics",
+      "ects": 4,
+      "page": 440,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Thermodynamics of the Energy Transition",
+      "ects": 4,
+      "page": 441,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Tires and Wheel Development for Passenger Cars",
+      "ects": 4,
+      "page": 442,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Tractors",
+      "ects": 4,
+      "page": 443,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Ubiquitous Computing",
+      "ects": 5,
+      "page": 444,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Vacuum and Tritium Technology in Nuclear Fusion",
+      "ects": 4,
+      "page": 445,
+      "term": "SS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        }
+      ]
+    },
+    {
+      "name": "Validation of Technical Systems",
+      "ects": 4,
+      "page": 446,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Drive Technology",
+      "ects": 4,
+      "page": 448,
+      "term": "WS",
+      "type": "lecture",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Lightweight Design - Strategies, Concepts, Materials",
+      "ects": 4,
+      "page": 449,
+      "term": "WS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Systems for Urban Mobility",
+      "ects": 4,
+      "page": 450,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Vehicle Systems Engineering",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Wearable Robotic Technologies",
+      "ects": 4,
+      "page": 451,
+      "term": "SS",
+      "type": "seminar",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Design of Mechatronic Systems",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    },
+    {
+      "name": "Workshop Finite Element Method in Electromagnetics",
+      "ects": 3,
+      "page": 452,
+      "term": "SS",
+      "type": "practical",
+      "partOf": [
+        {
+          "type": "Field of Specialization",
+          "area": "Energy Technology",
+          "subcategory": "Additive Electives"
+        },
+        {
+          "type": "Elective Area"
+        }
+      ]
+    }
+  ]

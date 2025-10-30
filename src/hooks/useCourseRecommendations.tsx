@@ -9,8 +9,20 @@ export const useCourseRecommendations = () => {
       // Avoid duplicates based on course name
       const exists = prev.some(c => c.name === course.name);
       if (exists) return prev;
-      return [...prev, course];
+      // Ensure course has an ID
+      const courseWithId = { ...course, id: course.id || Date.now().toString() };
+      return [...prev, courseWithId];
     });
+  };
+
+  const updateRecommendation = (course: CourseRecommendation) => {
+    setRecommendations(prev =>
+      prev.map(c => c.id === course.id ? course : c)
+    );
+  };
+
+  const removeRecommendation = (courseId: string) => {
+    setRecommendations(prev => prev.filter(c => c.id !== courseId));
   };
 
   const clearRecommendations = () => {
@@ -20,6 +32,8 @@ export const useCourseRecommendations = () => {
   return {
     recommendations,
     addRecommendation,
+    updateRecommendation,
+    removeRecommendation,
     clearRecommendations,
   };
 };

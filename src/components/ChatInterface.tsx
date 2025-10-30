@@ -5,14 +5,19 @@ import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Mic, Send, Phone, PhoneOff, BookOpen, MessageSquare, FileText } from 'lucide-react';
+import { Mic, Send, Phone, PhoneOff, BookOpen, MessageSquare, FileText, Calendar, Library } from 'lucide-react';
 import ChatMessage from './ChatMessage';
 import VoiceIndicator from './VoiceIndicator';
 import PDFViewer from './PDFViewer';
 import CourseRecommendations from './CourseRecommendations';
+import SemesterPlanner from './SemesterPlanner';
+import ModuleLibrary from './ModuleLibrary';
 import { useCourseRecommendations } from '@/hooks/useCourseRecommendations';
+import { useBookmarks } from '@/hooks/useBookmarks';
 import { extractCoursesFromMessage, quickDetectCourses } from '@/utils/courseParser';
+import { analyzeChatForBookedCourses } from '@/utils/chatAnalyzer';
 import { toast } from 'sonner';
+import { CourseRecommendation } from './CourseRecommendations';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -20,8 +25,8 @@ interface Message {
   timestamp: string;
 }
 
-const ELEVENLABS_API_KEY = 'sk_b4730d2bbc79c89499773ee6f9dc64bf722019e7f9be96ad';
-const AGENT_ID = 'agent_6001k8c100vce8yrhe4dtbzzv3xg';
+const ELEVENLABS_API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY || '';
+const AGENT_ID = import.meta.env.VITE_ELEVENLABS_AGENT_ID || '';
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -30,7 +35,8 @@ const ChatInterface = () => {
   const [activeTab, setActiveTab] = useState('chat');
   const [pdfPage, setPdfPage] = useState<number>(1);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const { recommendations, addRecommendation, clearRecommendations } = useCourseRecommendations();
+  const { recommendations, addRecommendation, updateRecommendation, removeRecommendation, clearRecommendations } = useCourseRecommendations();
+  const { bookmarks, addBookmark, deleteBookmark } = useBookmarks();
 
   const conversation = useConversation({
     clientTools: {
@@ -54,31 +60,19 @@ const ChatInterface = () => {
       toast.info('Disconnected from Course Guide');
     },
     onMessage: (message) => {
-      console.log('Message received:', message);
-      
-      // Message structure: { message: string, source: 'user' | 'ai' }
       const content = typeof message.message === 'string' ? message.message : '';
       const role = message.source === 'user' ? 'user' : 'assistant';
       
-      if (content.trim()) {
+      if (!content.trim()) return;
+
         if (role === 'assistant') {
-          // For AI messages, accumulate in current transcript
           setCurrentTranscript(prev => prev + content);
         } else {
-          // For user messages, add directly to messages
-          setMessages(prev => {
-            // Check if last message is from the same user to avoid duplicates
-            const lastMsg = prev[prev.length - 1];
-            if (lastMsg?.role === role && lastMsg?.content === content) {
-              return prev;
-            }
-            return [...prev, {
+        setMessages(prev => [...prev, {
               role,
               content,
               timestamp: new Date().toLocaleTimeString()
-            }];
-          });
-        }
+        }]);
       }
     },
     onError: (error) => {
@@ -90,21 +84,12 @@ const ChatInterface = () => {
   const startConversation = async () => {
     try {
       await navigator.mediaDevices.getUserMedia({ audio: true });
-      
       const response = await fetch(
         `https://api.elevenlabs.io/v1/convai/conversation/get_signed_url?agent_id=${AGENT_ID}`,
         {
-          method: 'GET',
-          headers: {
-            'xi-api-key': ELEVENLABS_API_KEY,
-          },
+          headers: { 'xi-api-key': ELEVENLABS_API_KEY }
         }
       );
-
-      if (!response.ok) {
-        throw new Error('Failed to get signed URL');
-      }
-
       const data = await response.json();
       await conversation.startSession({ signedUrl: data.signed_url });
       
@@ -113,22 +98,45 @@ const ChatInterface = () => {
         content: 'Hello! I\'m your KIT Mechatronics and Information Technology Course Guide. How can I help you plan your semester?',
         timestamp: new Date().toLocaleTimeString()
       }]);
-    } catch (error) {
-      console.error('Failed to start conversation:', error);
-      toast.error('Failed to start conversation. Please check your microphone permissions.');
+    } catch (e) {
+      toast.error('Failed to start conversation');
     }
   };
 
   const endConversation = async () => {
     // Save any remaining transcript before ending
+    const finalMessages = [...messages];
     if (currentTranscript.trim()) {
-      setMessages(prev => [...prev, {
-        role: 'assistant',
+      const finalMessage: Message = {
+        role: 'assistant' as const,
         content: currentTranscript.trim(),
         timestamp: new Date().toLocaleTimeString()
-      }]);
+      };
+      finalMessages.push(finalMessage);
+      setMessages(prev => [...prev, finalMessage]);
       setCurrentTranscript('');
     }
+
+    // Analyze conversation for booked courses
+    toast.info('Analyzing conversation...');
+    
+    try {
+      console.log('Messages to analyze:', finalMessages);
+      const { bookedCourses } = await analyzeChatForBookedCourses(finalMessages);
+      
+      if (bookedCourses.length > 0) {
+        console.log('Found booked courses:', bookedCourses);
+        bookedCourses.forEach(course => addRecommendation(course));
+        toast.success(`✅ Added ${bookedCourses.length} booked course${bookedCourses.length > 1 ? 's' : ''} to your planner!`);
+        setActiveTab('planning');
+      } else {
+        toast.info('No booked courses detected in conversation.');
+      }
+    } catch (error) {
+      console.error('Error analyzing chat:', error);
+      toast.error('Failed to analyze conversation');
+    }
+
     await conversation.endSession();
   };
 
@@ -164,27 +172,22 @@ const ChatInterface = () => {
 
   const sendTextMessage = () => {
     if (!inputValue.trim()) return;
-
     const userMessage: Message = {
       role: 'user',
       content: inputValue,
       timestamp: new Date().toLocaleTimeString()
     };
-
     setMessages(prev => [...prev, userMessage]);
     setInputValue('');
-
-    // Note: Text messages through conversation API would require additional implementation
-    toast.info('Text input is available. Voice responses will continue through the conversation.');
   };
+
+  const isConnected = conversation.status === 'connected';
 
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
   }, [messages, currentTranscript]);
-
-  const isConnected = conversation.status === 'connected';
 
   const handleCourseClick = (page: number) => {
     setPdfPage(page);
@@ -235,7 +238,7 @@ const ChatInterface = () => {
       {/* Main Content Area with Tabs */}
       <div className="flex-1 container max-w-6xl mx-auto px-4 py-6 overflow-hidden">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="h-full flex flex-col">
-          <TabsList className="grid w-full grid-cols-3 mb-4">
+          <TabsList className="grid w-full grid-cols-5 mb-4">
             <TabsTrigger value="chat" className="flex items-center gap-2">
               <MessageSquare className="h-4 w-4" />
               Chat
@@ -244,9 +247,17 @@ const ChatInterface = () => {
               <FileText className="h-4 w-4" />
               Handbook
             </TabsTrigger>
+            <TabsTrigger value="modules" className="flex items-center gap-2">
+              <Library className="h-4 w-4" />
+              Modules
+            </TabsTrigger>
             <TabsTrigger value="recommendations" className="flex items-center gap-2">
               <BookOpen className="h-4 w-4" />
               Recommendations ({recommendations.length})
+            </TabsTrigger>
+            <TabsTrigger value="planning" className="flex items-center gap-2">
+              <Calendar className="h-4 w-4" />
+              Semester Plan
             </TabsTrigger>
           </TabsList>
 
@@ -301,7 +312,25 @@ const ChatInterface = () => {
           </TabsContent>
 
           <TabsContent value="handbook" className="flex-1 overflow-hidden mt-0">
-            <PDFViewer targetPage={pdfPage} />
+            <PDFViewer 
+              targetPage={pdfPage}
+              bookmarks={bookmarks}
+              onAddBookmark={addBookmark}
+              onDeleteBookmark={deleteBookmark}
+              onBookmarkClick={(bookmark) => {
+                addRecommendation({ ...bookmark, id: Date.now().toString() });
+                setPdfPage(bookmark.page || 1);
+                setActiveTab('recommendations');
+              }}
+            />
+          </TabsContent>
+
+          <TabsContent value="modules" className="flex-1 overflow-hidden mt-0">
+            <ModuleLibrary
+              existingCourses={recommendations}
+              onAddRecommendation={addRecommendation}
+              onCourseClick={handleCourseClick}
+            />
           </TabsContent>
 
           <TabsContent value="recommendations" className="flex-1 overflow-hidden mt-0">
@@ -309,6 +338,17 @@ const ChatInterface = () => {
               <CourseRecommendations 
                 courses={recommendations}
                 onCourseClick={handleCourseClick}
+                onDeleteCourse={removeRecommendation}
+              />
+            </ScrollArea>
+          </TabsContent>
+
+          <TabsContent value="planning" className="flex-1 overflow-hidden mt-0">
+            <ScrollArea className="h-full pr-4">
+              <SemesterPlanner
+                courses={recommendations}
+                onCourseClick={handleCourseClick}
+                onUpdateCourse={updateRecommendation}
               />
             </ScrollArea>
           </TabsContent>
