@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { ClipboardCopy, Check, ExternalLink, PlusCircle, ListFilter, Edit } from 'lucide-react';
 import { toast } from 'sonner';
@@ -19,6 +19,56 @@ interface ModuleLibraryProps {
 }
 
 const INITIAL_COLOR = '#0ea5e9';
+
+type FilterOption = {
+  value: string;
+  label: string;
+};
+
+type NormalizedModule = {
+  original: ModuleInfo;
+  termKey: string | null;
+  typeKey: string | null;
+  parts: Array<{
+    areaKey: string | null;
+    subcategoryKey: string | null;
+    areaLabel: string | null;
+    subcategoryLabel: string | null;
+  }>;
+};
+
+const normalizeKey = (value?: string | null) => {
+  if (!value) return null;
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  return trimmed.replace(/\s+/g, ' ').toLowerCase();
+};
+
+const formatLabel = (value: string) => value.trim().replace(/\s+/g, ' ');
+
+const formatTypeDisplay = (value?: string | null) => {
+  if (!value) return '';
+  const formatted = formatLabel(value);
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+};
+
+const normalizeTermKey = (value?: string | null) => {
+  const key = normalizeKey(value);
+  if (!key) return null;
+
+  if (key === 'ws' || key === 'ss' || key === 'both' || key === 'irregular') {
+    return key;
+  }
+
+  if (key === 'ws/ss' || key === 'ss/ws' || key === 'ws + ss' || key === 'ss + ws') {
+    return 'both';
+  }
+
+  return key;
+};
+
+const sortOptions = (options: FilterOption[]) =>
+  [...options].sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }));
 
 const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: ModuleLibraryProps) => {
   const [modules, setModules] = useState<ModuleInfo[]>([]);
@@ -60,41 +110,149 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
     };
   }, []);
 
+  const normalizedModules = useMemo<NormalizedModule[]>(
+    () =>
+      modules.map((module) => ({
+        original: module,
+        termKey: normalizeTermKey(module.term),
+        typeKey: normalizeKey(module.type),
+        parts:
+          module.partOf?.map((part) => ({
+            areaKey: normalizeKey(part.area),
+            subcategoryKey: normalizeKey(part.subcategory),
+            areaLabel: part.area ?? null,
+            subcategoryLabel: part.subcategory ?? null,
+          })) ?? [],
+      })),
+    [modules]
+  );
+
+  const filterOptions = useMemo(() => {
+    const termOptions = new Map<string, string>();
+    const typeOptions = new Map<string, string>();
+    const areaOptions = new Map<string, string>();
+    const subcategoryOptions = new Map<string, string>();
+    const subcategoriesByArea = new Map<string, Map<string, string>>();
+
+    const ensureOption = (
+      map: Map<string, string>,
+      key: string | null,
+      label?: string | null
+    ) => {
+      if (!key) return null;
+      const formatted = formatLabel(label ?? key);
+      if (!map.has(key)) {
+        map.set(key, formatted);
+      }
+      return key;
+    };
+
+    normalizedModules.forEach(({ original, termKey, typeKey, parts }) => {
+      ensureOption(termOptions, termKey, original.term ?? termKey ?? undefined);
+      ensureOption(typeOptions, typeKey, original.type ?? typeKey ?? undefined);
+
+      parts.forEach((part) => {
+        const areaKey = ensureOption(areaOptions, part.areaKey, part.areaLabel);
+        const subcategoryKey = ensureOption(
+          subcategoryOptions,
+          part.subcategoryKey,
+          part.subcategoryLabel
+        );
+
+        if (!areaKey) return;
+
+        if (!subcategoriesByArea.has(areaKey)) {
+          subcategoriesByArea.set(areaKey, new Map());
+        }
+
+        if (subcategoryKey && part.subcategoryLabel) {
+          const areaSubcategories = subcategoriesByArea.get(areaKey)!;
+          if (!areaSubcategories.has(subcategoryKey)) {
+            areaSubcategories.set(subcategoryKey, formatLabel(part.subcategoryLabel));
+          }
+        }
+      });
+    });
+
+    const toOptions = (map: Map<string, string>) =>
+      sortOptions(Array.from(map.entries()).map(([value, label]) => ({ value, label })));
+
+    const subcategoriesByAreaOptions = new Map<string, FilterOption[]>();
+    subcategoriesByArea.forEach((subMap, areaKey) => {
+      subcategoriesByAreaOptions.set(areaKey, toOptions(subMap));
+    });
+
+    return {
+      terms: toOptions(termOptions),
+      types: toOptions(typeOptions),
+      areas: toOptions(areaOptions),
+      subcategoriesByArea: subcategoriesByAreaOptions,
+      subcategories: toOptions(subcategoryOptions),
+    };
+  }, [normalizedModules]);
+
+  const { terms, types, areas, subcategoriesByArea, subcategories } = filterOptions;
+
   const filteredModules = useMemo(() => {
-    let filtered = modules;
-    
-    // Filter by search query
+    let filtered = normalizedModules;
+
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter((module) => module.name.toLowerCase().includes(query));
+      filtered = filtered.filter(({ original }) =>
+        original.name.toLowerCase().includes(query)
+      );
     }
-    
-    // Filter by term
+
     if (filterTerm !== 'all') {
-      filtered = filtered.filter((module) => module.term === filterTerm || module.term === 'Both');
+      filtered = filtered.filter((module) => module.termKey === filterTerm);
     }
-    
-    // Filter by type
+
     if (filterType !== 'all') {
-      filtered = filtered.filter((module) => module.type === filterType);
+      filtered = filtered.filter((module) => module.typeKey === filterType);
     }
-    
-    // Filter by area
+
     if (filterArea !== 'all') {
-      filtered = filtered.filter((module) => 
-        module.partOf?.some(p => p.area === filterArea)
+      filtered = filtered.filter((module) =>
+        module.parts.some((part) => part.areaKey === filterArea)
       );
     }
-    
-    // Filter by subcategory
+
     if (filterSubcategory !== 'all') {
-      filtered = filtered.filter((module) => 
-        module.partOf?.some(p => p.subcategory === filterSubcategory)
+      filtered = filtered.filter((module) =>
+        module.parts.some((part) => {
+          const matchesArea = filterArea === 'all' || part.areaKey === filterArea;
+          return matchesArea && part.subcategoryKey === filterSubcategory;
+        })
       );
     }
-    
-    return filtered;
-  }, [modules, searchQuery, filterTerm, filterType, filterArea, filterSubcategory]);
+
+    return filtered.map((entry) => entry.original);
+  }, [normalizedModules, searchQuery, filterTerm, filterType, filterArea, filterSubcategory]);
+
+  useEffect(() => {
+    if (filterArea === 'all') {
+      if (filterSubcategory !== 'all') {
+        setFilterSubcategory('all');
+      }
+      return;
+    }
+
+    const areaSubcategories = subcategoriesByArea.get(filterArea);
+    if (
+      filterSubcategory !== 'all' &&
+      (!areaSubcategories || !areaSubcategories.some((option) => option.value === filterSubcategory))
+    ) {
+      setFilterSubcategory('all');
+    }
+  }, [filterArea, filterSubcategory, subcategoriesByArea]);
+
+  const availableSubcategories = useMemo(() => {
+    if (filterArea === 'all') {
+      return subcategories;
+    }
+    const specific = subcategoriesByArea.get(filterArea);
+    return specific ?? [];
+  }, [filterArea, subcategories, subcategoriesByArea]);
 
   const handleAddRecommendation = (module: ModuleInfo) => {
     if (existingCourses.some((course) => course.name === module.name)) {
@@ -246,9 +404,14 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Terms</SelectItem>
-                <SelectItem value="WS">Winter Semester (WS)</SelectItem>
-                <SelectItem value="SS">Summer Semester (SS)</SelectItem>
-                <SelectItem value="Both">Both Semesters</SelectItem>
+                {terms.map((term) => (
+                  <SelectItem key={term.value} value={term.value}>
+                    {term.value === 'ws' && 'Winter Semester (WS)'}
+                    {term.value === 'ss' && 'Summer Semester (SS)'}
+                    {term.value === 'both' && 'Both Semesters'}
+                    {term.value !== 'ws' && term.value !== 'ss' && term.value !== 'both' && term.label}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
             <Select value={filterType} onValueChange={setFilterType}>
@@ -257,9 +420,11 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Types</SelectItem>
-                <SelectItem value="lecture">Lecture</SelectItem>
-                <SelectItem value="seminar">Seminar</SelectItem>
-                <SelectItem value="practical">Practical</SelectItem>
+                {types.map((type) => (
+                  <SelectItem key={type.value} value={type.value}>
+                    {type.label.charAt(0).toUpperCase() + type.label.slice(1)}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
             <Select value={filterArea} onValueChange={setFilterArea}>
@@ -268,13 +433,11 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Areas</SelectItem>
-                <SelectItem value="Autonomous Systems and AI">Autonomous Systems and AI</SelectItem>
-                <SelectItem value="Automation, Control, and Robotics">Automation, Control, and Robotics</SelectItem>
-                <SelectItem value="Design of Mechatronic Systems">Design of Mechatronic Systems</SelectItem>
-                <SelectItem value="Energy Technology">Energy Technology</SelectItem>
-                <SelectItem value="Industrial Informatics and Systems Engineering">Industrial Informatics and Systems Engineering</SelectItem>
-                <SelectItem value="Micro System Technology">Micro System Technology</SelectItem>
-                <SelectItem value="Vehicle Systems Engineering">Vehicle Systems Engineering</SelectItem>
+                {areas.map((area) => (
+                  <SelectItem key={area.value} value={area.value}>
+                    {area.label}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
             <Select value={filterSubcategory} onValueChange={setFilterSubcategory}>
@@ -283,10 +446,11 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Subcategories</SelectItem>
-                <SelectItem value="Mandatory Electives – Methodical">Mandatory Electives – Methodical</SelectItem>
-                <SelectItem value="Mandatory Electives – General">Mandatory Electives – General</SelectItem>
-                <SelectItem value="Additive Electives">Additive Electives</SelectItem>
-                <SelectItem value="Internship/Lab Course">Internship/Lab Course</SelectItem>
+                {availableSubcategories.map((subcategory) => (
+                  <SelectItem key={subcategory.value} value={subcategory.value}>
+                    {subcategory.label}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
           </div>
@@ -383,7 +547,7 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
                         )}
                         {module.type && (
                           <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200">
-                            {module.type}
+                            {formatTypeDisplay(module.type)}
                           </Badge>
                         )}
                       </div>
