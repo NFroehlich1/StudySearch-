@@ -72,17 +72,17 @@ const CourseRecommendations = ({ courses, onCourseClick, onDeleteCourse }: Cours
                   <Trash2 className="h-4 w-4" />
                 </Button>
               )}
-              {course.page && (
-                <Button
-                  onClick={() => onCourseClick(course.page!)}
-                  variant="outline"
-                  size="sm"
-                  className="shrink-0"
-                >
-                  <ExternalLink className="h-4 w-4 mr-1" />
-                  View
-                </Button>
-              )}
+            {course.page && (
+              <Button
+                onClick={() => onCourseClick(course.page!)}
+                variant="outline"
+                size="sm"
+                className="shrink-0"
+              >
+                <ExternalLink className="h-4 w-4 mr-1" />
+                View
+              </Button>
+            )}
             </div>
           </div>
         </Card>

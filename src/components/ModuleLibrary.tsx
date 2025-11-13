@@ -194,40 +194,50 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
   const { terms, types, areas, subcategoriesByArea, subcategories } = filterOptions;
 
   const filteredModules = useMemo(() => {
-    let filtered = normalizedModules;
+    let filtered = modules;
 
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(({ original }) =>
-        original.name.toLowerCase().includes(query)
+      filtered = filtered.filter((module) =>
+        module.name.toLowerCase().includes(query)
       );
     }
 
     if (filterTerm !== 'all') {
-      filtered = filtered.filter((module) => module.termKey === filterTerm);
+      filtered = filtered.filter((module) => {
+        const normalizedTerm = normalizeTermKey(module.term);
+        return normalizedTerm === filterTerm;
+      });
     }
 
     if (filterType !== 'all') {
-      filtered = filtered.filter((module) => module.typeKey === filterType);
+      filtered = filtered.filter((module) => {
+        const normalizedType = normalizeKey(module.type);
+        return normalizedType === filterType;
+      });
     }
 
     if (filterArea !== 'all') {
       filtered = filtered.filter((module) =>
-        module.parts.some((part) => part.areaKey === filterArea)
+        module.partOf?.some((part) => {
+          const normalizedArea = normalizeKey(part.area);
+          return normalizedArea === filterArea;
+        })
       );
     }
 
     if (filterSubcategory !== 'all') {
       filtered = filtered.filter((module) =>
-        module.parts.some((part) => {
-          const matchesArea = filterArea === 'all' || part.areaKey === filterArea;
-          return matchesArea && part.subcategoryKey === filterSubcategory;
+        module.partOf?.some((part) => {
+          const normalizedSubcategory = normalizeKey(part.subcategory);
+          const matchesArea = filterArea === 'all' || normalizeKey(part.area) === filterArea;
+          return matchesArea && normalizedSubcategory === filterSubcategory;
         })
       );
     }
 
-    return filtered.map((entry) => entry.original);
-  }, [normalizedModules, searchQuery, filterTerm, filterType, filterArea, filterSubcategory]);
+    return filtered;
+  }, [modules, searchQuery, filterTerm, filterType, filterArea, filterSubcategory]);
 
   useEffect(() => {
     if (filterArea === 'all') {
