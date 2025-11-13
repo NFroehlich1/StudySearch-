@@ -90,7 +90,9 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
     let cancelled = false;
     (async () => {
       try {
+        console.log('Loading modules...');
         const data = await getAllModules();
+        console.log(`Loaded ${data.length} modules`);
         if (!cancelled) {
           setModules(data);
         }
@@ -110,9 +112,9 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
     };
   }, []);
 
-  const normalizedModules = useMemo<NormalizedModule[]>(
-    () =>
-      modules.map((module) => ({
+  const normalizedModules = useMemo<NormalizedModule[]>(() => {
+    try {
+      return modules.map((module) => ({
         original: module,
         termKey: normalizeTermKey(module.term),
         typeKey: normalizeKey(module.type),
@@ -123,9 +125,12 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
             areaLabel: part.area ?? null,
             subcategoryLabel: part.subcategory ?? null,
           })) ?? [],
-      })),
-    [modules]
-  );
+      }));
+    } catch (err) {
+      console.error('Error normalizing modules:', err);
+      return [];
+    }
+  }, [modules]);
 
   const filterOptions = useMemo(() => {
     const termOptions = new Map<string, string>();
