@@ -5,7 +5,6 @@ import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Mic, Send, Phone, PhoneOff, BookOpen, MessageSquare, FileText, Calendar, Library } from 'lucide-react';
 import ChatMessage from './ChatMessage';
 import VoiceIndicator from './VoiceIndicator';
@@ -35,7 +34,6 @@ const ChatInterface = () => {
   const [currentTranscript, setCurrentTranscript] = useState('');
   const [activeTab, setActiveTab] = useState('chat');
   const [pdfPage, setPdfPage] = useState<number>(1);
-  const [chatMode, setChatMode] = useState<'voice' | 'text'>('text');
   const scrollRef = useRef<HTMLDivElement>(null);
   const { recommendations, addRecommendation, updateRecommendation, removeRecommendation, clearRecommendations } = useCourseRecommendations();
   const { bookmarks, addBookmark, deleteBookmark } = useBookmarks();
@@ -85,9 +83,7 @@ const ChatInterface = () => {
 
   const startConversation = async () => {
     try {
-      if (chatMode === 'voice') {
-        await navigator.mediaDevices.getUserMedia({ audio: true });
-      }
+      await navigator.mediaDevices.getUserMedia({ audio: true });
       const response = await fetch(
         `https://api.elevenlabs.io/v1/convai/conversation/get_signed_url?agent_id=${AGENT_ID}`,
         {
@@ -174,7 +170,7 @@ const ChatInterface = () => {
     }
   }, [conversation.isSpeaking, currentTranscript, addRecommendation]);
 
-  const sendTextMessage = async () => {
+  const sendTextMessage = () => {
     if (!inputValue.trim()) return;
     const userMessage: Message = {
       role: 'user',
@@ -183,14 +179,6 @@ const ChatInterface = () => {
     };
     setMessages(prev => [...prev, userMessage]);
     setInputValue('');
-
-    // In text mode, we're already using ElevenLabs via startSession
-    // The agent will respond through onMessage handler
-    // No need for additional API calls as the conversation is handled by the agent
-    
-    if (chatMode === 'text' && !isConnected) {
-      toast.info('Please start a session first');
-    }
   };
 
   const isConnected = conversation.status === 'connected';
@@ -221,31 +209,10 @@ const ChatInterface = () => {
               </p>
             </div>
             <div className="flex items-center gap-3">
-              {chatMode === 'voice' && (
-                <VoiceIndicator 
-                  isActive={isConnected} 
-                  isSpeaking={conversation.isSpeaking} 
-                />
-              )}
-              <Select value={chatMode} onValueChange={(value: 'voice' | 'text') => setChatMode(value)}>
-                <SelectTrigger className="w-[120px]">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="text">
-                    <div className="flex items-center gap-2">
-                      <MessageSquare className="h-4 w-4" />
-                      Text
-                    </div>
-                  </SelectItem>
-                  <SelectItem value="voice">
-                    <div className="flex items-center gap-2">
-                      <Mic className="h-4 w-4" />
-                      Voice
-                    </div>
-                  </SelectItem>
-                </SelectContent>
-              </Select>
+              <VoiceIndicator 
+                isActive={isConnected} 
+                isSpeaking={conversation.isSpeaking} 
+              />
               {!isConnected ? (
                 <Button 
                   onClick={startConversation}
