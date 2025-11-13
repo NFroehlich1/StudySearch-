@@ -205,7 +205,7 @@ const ChatInterface = () => {
                 KIT Course Guide
               </h1>
               <p className="text-sm text-muted-foreground">
-                Mechatronics and Information Technology
+                KIT Nova · Innovation Space — plan your next semester journey
               </p>
             </div>
             <div className="flex items-center gap-3">

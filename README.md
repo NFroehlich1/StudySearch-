@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-StudySearch is an AI-powered course planning tool for KIT Mechatronics and Information Technology students. It combines conversational AI with a comprehensive module library to help students plan their semester efficiently.
+StudySearch is an AI-powered course planning tool for KIT Mechatronics and Information Technology students. Built as part of the KIT Nova Innovation Space, it helps you plan your next semester journey by combining conversational AI with a comprehensive module library.
 
 ## Features
 
@@ -83,12 +83,10 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/3d94c844-5c1e-411a-8513-92c2923a1780) and click on Share -> Publish.
+You can deploy to any static hosting that supports Vite builds:
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Build the project:
+   ```sh
+   npm run build
+   ```
+2. Serve the `dist/` folder using your platform of choice (e.g. Netlify, Vercel, GitHub Pages, or any static server).
