@@ -37,14 +37,26 @@ type NormalizedModule = {
   }>;
 };
 
-const normalizeKey = (value?: string | null) => {
-  if (!value) return null;
-  const trimmed = value.trim();
+const normalizeKey = (value?: unknown) => {
+  if (value === undefined || value === null) return null;
+  let asString: string;
+  if (typeof value === 'string') {
+    asString = value;
+  } else if (Array.isArray(value) && value.length > 0 && typeof value[0] === 'string') {
+    asString = value[0] as string;
+  } else {
+    asString = String(value);
+  }
+  const trimmed = asString.trim();
   if (!trimmed) return null;
   return trimmed.replace(/\s+/g, ' ').toLowerCase();
 };
 
-const formatLabel = (value: string) => value.trim().replace(/\s+/g, ' ');
+const formatLabel = (value: unknown) => {
+  if (value === undefined || value === null) return '';
+  const s = typeof value === 'string' ? value : String(value);
+  return s.trim().replace(/\s+/g, ' ');
+};
 
 const formatTypeDisplay = (value?: string | null) => {
   if (!value) return '';
