@@ -4,7 +4,7 @@
     "ects": 3,
     "page": 54,
     "term": "WS",
-    "type": "seminar",
+    "type": "lecture",
     "partOf": [
       {
         "type": "Field of Specialization in Mechatronics and Information Technology",
@@ -14,7 +14,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "30.34 Lichttechnik-Hörsaal (LTI)",
+        "30.41 Rudolf-Criegee-Hörsaal (HS4)"
+      ],
+      "instructors": [
+        "Gladysz, Szymon",
+        "Trampert, Klaus"
+      ],
+      "source_page": 258
+    }
   },
   {
     "name": "Advanced Artificial Intelligence",
@@ -68,7 +83,33 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "13.08.2025",
+      "day_of_week": "Mi"
+    },
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Tue 08:00-09:30",
+        "Tue 11:30-13:00",
+        "Tue 08:00-09:30",
+        "Mon 11:30-13:00",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "10.91 Mittlerer Hörsaal",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Schmalen, Laurent",
+        "Cil, Erdem Eray",
+        "Jäkel, Holger"
+      ],
+      "source_page": 250
+    }
   },
   {
     "name": "Analog Circuit Design",
@@ -85,7 +126,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Thu 14:00-18:00"
+      ],
+      "rooms": [
+        "06.41 R 102",
+        "11.10 Kleiner Hörsaal"
+      ],
+      "instructors": [
+        "Peric, Ivan"
+      ],
+      "source_page": 253
+    }
   },
   {
     "name": "Analysis Tools for Combustion Diagnostics",
@@ -119,7 +174,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 14:00-16:00"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Kuo, Tai",
+        "Ulusoy, Ahmet Cagri"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Applied Information Theory",
@@ -131,7 +200,28 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30",
+        "Fri 09:45-11:15",
+        "Mon 11:30-13:00",
+        "Thu 11:30-13:00",
+        "Thu 11:30-13:00",
+        "Tue 14:00-15:30",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "30.28 Seminarraum 2",
+        "20.30 Seminarraum -1.012",
+        "20.30 Seminarraum -1.025"
+      ],
+      "instructors": [
+        "Schmalen, Laurent",
+        "Jäkel, Holger"
+      ],
+      "source_page": 249
+    }
   },
   {
     "name": "Artificial Intelligence & IT-Security",
@@ -162,7 +252,29 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "05.08.2025",
+      "day_of_week": "Di"
+    },
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15",
+        "Thu 17:30-19:00",
+        "Wed 14:00-15:30"
+      ],
+      "rooms": [
+        "50.34 Room -102",
+        "20.40 Fritz-Haller-Hörsaal (HS37)"
+      ],
+      "instructors": [
+        "Beyerer, Jürgen",
+        "Anatomy, Information Transfer",
+        "Processing, Neurophysiology"
+      ],
+      "source_page": 330
+    }
   },
   {
     "name": "Automotive Engineering I",
@@ -184,7 +296,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 15:45-17:15",
+        "Fri 11:30-13:00",
+        "Thu 14:00-15:30",
+        "Fri 09:45-11:15"
+      ],
+      "rooms": [
+        "10.50 Bauingenieure, Kleiner",
+        "40.40 Sport-Hörsaal (R007)",
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Bauingenieure, Kleiner Hörsaal"
+      ],
+      "source_page": 360
+    }
   },
   {
     "name": "Automotive Engineering II",
@@ -301,7 +430,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 08:00-09:30",
+        "Thu 09:45-11:15",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "10.50 Room 602",
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)"
+      ],
+      "instructors": [
+        "Weber, Andre",
+        "Krewer, Ulrike Thu",
+        "Lemmer, Ulrich"
+      ],
+      "source_page": 236
+    }
   },
   {
     "name": "Batteries, Fuel Cells, and Electrolysis",
@@ -338,7 +485,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Thu 15:45-17:15"
+      ],
+      "rooms": [
+        "10.91 Oberer Hörsaal"
+      ],
+      "instructors": [
+        "Batteries, Fuel Cells",
+        "Krewer, Ulrike"
+      ],
+      "source_page": 237
+    }
   },
   {
     "name": "Battery and Fuel Cells Systems",
@@ -406,17 +567,26 @@
     "ects": 4,
     "page": 78,
     "term": "WS",
-    "type": "lecture",
+    "type": [
+      "seminar",
+      "practical"
+    ],
     "partOf": [
       {
         "type": "Field of Specialization in Mechatronics and Information Technology",
         "area": "Design of Mechatronic Systems",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Mattheck, Claus"
+      ],
+      "source_page": 351
+    }
   },
   {
-    "name": "BioMEMS - Microsystems Technologies for Life Sciences and \nMedicine I",
+    "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine I",
     "ects": 4,
     "page": 79,
     "term": "WS",
@@ -435,10 +605,28 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Mon 14:00-15:30",
+        "Mon 09:45-11:15"
+      ],
+      "rooms": [
+        "50.35 Seminarraum 101",
+        "10.21 Gottlieb-Daimler-Hörsaal",
+        "20.30 Seminarraum 0.016"
+      ],
+      "instructors": [
+        "Bade, Klaus",
+        "Ahrens, Ralf Organizational",
+        "Guber, Andreas"
+      ],
+      "source_page": 380
+    }
   },
   {
-    "name": "BioMEMS - Microsystems Technologies for Life Sciences and \nMedicine II",
+    "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine II",
     "ects": 4,
     "page": 81,
     "term": "SS",
@@ -455,7 +643,7 @@
     ]
   },
   {
-    "name": "BioMEMS - Microsystems Technologies for Life Sciences and \nMedicine III",
+    "name": "BioMEMS - Microsystems Technologies for Life Sciences and Medicine III",
     "ects": 4,
     "page": 83,
     "term": "SS",
@@ -525,10 +713,29 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-18:00",
+        "Mon 14:00-18:00",
+        "Mon 14:00-18:00",
+        "Mon 14:00-18:00",
+        "Fri 14:00-18:00"
+      ],
+      "rooms": [
+        "10.23 Room 503",
+        "10.23 IPEK Room",
+        "10.23 Room 501"
+      ],
+      "instructors": [
+        "Burkardt, Norbert",
+        "Düser, Tobias"
+      ],
+      "source_page": 376
+    }
   },
   {
-    "name": "Channel Coding: Algebraic Methods for Communications and \nStorage",
+    "name": "Channel Coding: Algebraic Methods for Communications and Storage",
     "ects": 3,
     "page": 87,
     "term": "SS",
@@ -564,7 +771,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:30-10:30",
+        "Mon 11:30-13:00",
+        "Thu 11:30-13:00",
+        "Thu 13:30-16:30",
+        "Tue 18:30-20:30",
+        "Tue 18:30-20:30"
+      ],
+      "rooms": [
+        "10.91 Room 228",
+        "10.81 Friedrich-Engesser-Hörsaal (HS93)"
+      ],
+      "instructors": [
+        "Koch, Thomas",
+        "Kehrwald, Bernhard"
+      ],
+      "source_page": 372
+    }
   },
   {
     "name": "CO2-Neutral Combustion Engines and their Fuels II",
@@ -652,7 +878,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "12.09.2025",
+      "day_of_week": "Fr"
+    }
   },
   {
     "name": "Communications Engineering Lab",
@@ -664,7 +895,18 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-18:00"
+      ],
+      "instructors": [
+        "Vereinbarung, Seminarraum",
+        "Schmalen, Laurent",
+        "West, Geb"
+      ],
+      "source_page": 250
+    }
   },
   {
     "name": "Components of Power Systems",
@@ -750,7 +992,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Wed 14:00-15:30",
+        "Fri 08:00-09:30"
+      ],
+      "rooms": [
+        "20.40 Neuer Hörsaal",
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Mikut, Ralf",
+        "Reischl, Markus",
+        "Kohl, Manfred"
+      ],
+      "source_page": 263
+    }
   },
   {
     "name": "Control of Mobile Machines",
@@ -905,7 +1164,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "25.09.2025",
+      "day_of_week": "Do"
+    }
   },
   {
     "name": "Data Analytics for Engineers",
@@ -959,7 +1223,19 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Tue 09:45-11:15"
+      ],
+      "instructors": [
+        "Frey, Michael",
+        "Ost, Geb",
+        "Scheubner, Stefan"
+      ],
+      "source_page": 363
+    }
   },
   {
     "name": "Decision-Making and Motion Planning for Automated Driving",
@@ -986,7 +1262,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Fri 14:00-17:15",
+        "Fri 14:00-17:15",
+        "Fri 14:00-17:15",
+        "Fri 14:00-17:15",
+        "Wed 09:45-11:00"
+      ],
+      "rooms": [
+        "30.28 Seminarraum 2",
+        "10.23 IPEK -"
+      ],
+      "instructors": [
+        "Werling, Moritz",
+        "Albers, Albert Organizational",
+        "Naumann, Maximilian Fri"
+      ],
+      "source_page": 375
+    }
   },
   {
     "name": "Deep Learning and Neural Networks",
@@ -1042,7 +1338,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30",
+        "Mon 14:00-15:30"
+      ],
+      "rooms": [
+        "50.34 Room -102"
+      ],
+      "instructors": [
+        "Peng, Kunyu",
+        "Stiefelhagen, Rainer",
+        "Badilita, Vlad"
+      ],
+      "source_page": 262
+    }
   },
   {
     "name": "Deep Learning for Engineers",
@@ -1096,10 +1407,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 09:45-17:15"
+      ],
+      "rooms": [
+        "70.04 Room 219",
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Kremmer, Martin",
+        "Geerling, Gerhard",
+        "Geimer, Marcus"
+      ],
+      "source_page": 365
+    }
   },
   {
-    "name": "Design and Optimization of Conventional and Electrified \nAutomotive Transmissions",
+    "name": "Design and Optimization of Conventional and Electrified Automotive Transmissions",
     "ects": 4,
     "page": 114,
     "term": "SS",
@@ -1140,7 +1467,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "01.08.2025",
+      "day_of_week": "Fr"
+    },
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Wed 08:00-09:30"
+      ],
+      "rooms": [
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Doppelbauer, Martin"
+      ],
+      "source_page": 240
+    }
   },
   {
     "name": "Design Thinking",
@@ -1154,7 +1500,19 @@
         "area": "Design of Mechatronic Systems",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:00-17:00",
+        "Wed 09:00-17:00",
+        "Wed 09:00-13:00"
+      ],
+      "instructors": [
+        "Haller, Heiko",
+        "Terzidis, Orestis Wed"
+      ],
+      "source_page": 446
+    }
   },
   {
     "name": "Design with Plastics",
@@ -1178,7 +1536,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-17:15",
+        "Tue 08:00-17:15"
+      ],
+      "rooms": [
+        "70.41 Forschungsfabrik Single"
+      ],
+      "instructors": [
+        "Fleischer, Jürgen"
+      ],
+      "source_page": 384
+    }
   },
   {
     "name": "Development of Hybrid Powertrains",
@@ -1212,7 +1583,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-17:15",
+        "Mon 08:00-09:30"
+      ],
+      "rooms": [
+        "70.04 Room 219",
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Geerling, Gerhard",
+        "Geimer, Marcus"
+      ],
+      "source_page": 365
+    }
   },
   {
     "name": "Digital Beam-Forming for Imaging Radar",
@@ -1224,7 +1610,19 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 15:45-17:15"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Younis, Marwan"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Digital Circuit Design",
@@ -1263,7 +1661,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Fri 08:00-09:30",
+        "Mon 14:00-17:15",
+        "Thu 17:30-19:00"
+      ],
+      "rooms": [
+        "10.81 Friedrich-Engesser-Hörsaal (HS93)",
+        "40.32 Rudolf-Plank-Hörsaal (RPH)"
+      ],
+      "instructors": [
+        "Truetsch, Julian",
+        "Merkert, Jonas Fri",
+        "Knoop, Michael"
+      ],
+      "source_page": 374
+    }
   },
   {
     "name": "Digital Hardware Design Laboratory I",
@@ -1314,7 +1730,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15",
+        "Tue 15:30-18:30"
+      ],
+      "rooms": [
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Dorn, Moritz Dozent",
+        "Barth, Mike",
+        "Witucki, Linus Organizational"
+      ],
+      "source_page": 233
+    }
   },
   {
     "name": "Digitalization of Products, Services & Production",
@@ -1363,7 +1794,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "09.09.2025",
+      "day_of_week": "Di"
+    }
   },
   {
     "name": "Drive System Engineering B: Stationary Machinery",
@@ -1385,7 +1821,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 08:00-09:30",
+        "Thu 14:00-15:30",
+        "Thu 14:00-17:15"
+      ],
+      "rooms": [
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Ott, Sascha",
+        "Matthiesen, Sven",
+        "Hohmann, Sören Thu"
+      ],
+      "source_page": 379
+    }
   },
   {
     "name": "Drive Train of Mobile Machines",
@@ -1431,7 +1883,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "20.21 Pool B"
+      ],
+      "instructors": [
+        "Fidlin, Alexander Di",
+        "Fidlin, Alexander"
+      ],
+      "source_page": 387
+    }
   },
   {
     "name": "Electric Drives and Power Electronics Lab",
@@ -1453,7 +1919,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "08.08.2025",
+      "day_of_week": "Fr"
+    }
   },
   {
     "name": "Electric Drives for E-Mobility",
@@ -1497,7 +1968,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "01.09.2025",
+      "day_of_week": "Mo"
+    }
   },
   {
     "name": "Electrical Energy Systems Lab",
@@ -1526,7 +2002,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-11:15"
+      ],
+      "rooms": [
+        "50.41 Room -108"
+      ],
+      "instructors": [
+        "Menesklou, Wolfgang",
+        "Weber, Andre",
+        "Röse, Philipp"
+      ],
+      "source_page": 236
+    }
   },
   {
     "name": "Elements of Technical Logistics",
@@ -1564,14 +2054,28 @@
         "area": "Energy Technology",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "50.34 Room 236"
+      ],
+      "instructors": [
+        "Hagenmeyer, Veit",
+        "Geiges, Jakob Schmurr",
+        "Bauer, Rebecca Astrid"
+      ],
+      "source_page": 320
+    }
   },
   {
     "name": "Energy Storage and Network Integration",
     "ects": 4,
     "page": 145,
     "term": "WS",
-    "type": "seminar",
+    "type": "lecture",
     "partOf": [
       {
         "type": "Field of Specialization in Mechatronics and Information Technology",
@@ -1581,7 +2085,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 08:00-09:30",
+        "Mon 08:00-09:30"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "20.21 Pool C"
+      ],
+      "instructors": [
+        "Grilli, Francesco",
+        "Carne, Giovanni",
+        "Carne, Giovanni Organizational"
+      ],
+      "source_page": 254
+    }
   },
   {
     "name": "Energy Systems I - Renewable Energy",
@@ -1598,7 +2118,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 14:00-15:30",
+        "Thu 15:45-17:15",
+        "Mon 11:00-12:30"
+      ],
+      "rooms": [
+        "40.32 Rudolf-Plank-Hörsaal (RPH)"
+      ],
+      "instructors": [
+        "Dagan, Ron",
+        "Sanchez-Espinoza, German Organizational",
+        "Nord, Bldg"
+      ],
+      "source_page": 369
+    }
   },
   {
     "name": "Energy Topology and Resilience",
@@ -1635,7 +2171,7 @@
     ]
   },
   {
-    "name": "Engineering High-Density Molecular Arrays: Tools, Techniques, and \nAI-Driven Solutions for Biomedical Diagnostics",
+    "name": "Engineering High-Density Molecular Arrays: Tools, Techniques, and AI-Driven Solutions for Biomedical Diagnostics",
     "ects": 4,
     "page": 150,
     "term": "WS",
@@ -1666,7 +2202,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "10.91 Oberer Hörsaal"
+      ],
+      "instructors": [
+        "Seifert, Hans Jürgen",
+        "Ziebert, Carlos",
+        "Gorr, Bronislava"
+      ],
+      "source_page": 347
+    }
   },
   {
     "name": "Fabrication Processes in Microsystem Technology",
@@ -1683,19 +2233,52 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Mon 14:00-15:30",
+        "Mon 09:45-11:15"
+      ],
+      "rooms": [
+        "50.35 Seminarraum 101",
+        "10.21 Gottlieb-Daimler-Hörsaal",
+        "20.30 Seminarraum 0.016"
+      ],
+      "instructors": [
+        "Bade, Klaus",
+        "Ahrens, Ralf Organizational",
+        "Guber, Andreas"
+      ],
+      "source_page": 380
+    }
   },
   {
     "name": "Field Propagation and Coherence",
     "ects": 4,
     "page": 154,
     "term": "WS",
-    "type": "seminar",
+    "type": "lecture",
     "partOf": [
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Wed 08:00-09:30",
+        "Thu 15:45-16:30"
+      ],
+      "rooms": [
+        "30.10 IPQ Room"
+      ],
+      "instructors": [
+        "Freude, Wolfgang",
+        "Randel, Sebastian"
+      ],
+      "source_page": 248
+    }
   },
   {
     "name": "Flows and Heat Transfer in Energy Technology",
@@ -1712,7 +2295,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "30.22 Physik-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Martin, Sara",
+        "Cheng, Xu"
+      ],
+      "source_page": 369
+    }
   },
   {
     "name": "Fundamentals in the Development of Commercial Vehicles",
@@ -1729,7 +2325,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-17:00",
+        "Wed 14:00-17:00",
+        "Wed 14:00-17:00",
+        "Wed 14:00-17:00",
+        "Wed 14:00-17:00"
+      ],
+      "rooms": [
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Knoch, Eva",
+        "Weber, Christof"
+      ],
+      "source_page": 361
+    }
   },
   {
     "name": "Fundamentals of Combustion I",
@@ -1751,7 +2364,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Wed 09:45-11:15",
+        "Tue 08:00-09:30",
+        "Tue 15:45-17:15",
+        "Wed 15:45-17:15"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "10.91 Room 217"
+      ],
+      "instructors": [
+        "Maas, Ulrich",
+        "Maas, Ulrich",
+        "Shrotriya, Prashant Organizational"
+      ],
+      "source_page": 392
+    }
   },
   {
     "name": "Fundamentals of Combustion II",
@@ -1793,7 +2425,7 @@
     ]
   },
   {
-    "name": "Fundamentals of Reactor Safety for the Operation and Dismantling \nof Nuclear Power Plants",
+    "name": "Fundamentals of Reactor Safety for the Operation and Dismantling of Nuclear Power Plants",
     "ects": 4,
     "page": 162,
     "term": "WS",
@@ -1824,7 +2456,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "30.22 Physik-Hörsaal Nr.",
+        "10.50 HS 101"
+      ],
+      "instructors": [
+        "Martin, Sara",
+        "Badea, Aurelian Florin",
+        "Weiss, Klaus"
+      ],
+      "source_page": 369
+    }
   },
   {
     "name": "Fusion Technology B",
@@ -1858,7 +2506,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-11:15",
+        "Wed 08:30-11:30",
+        "Thu 08:30-11:30",
+        "Fri 08:30-11:30"
+      ],
+      "rooms": [
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Harrer, Manfred",
+        "Weitz, Fabian"
+      ],
+      "source_page": 361
+    }
   },
   {
     "name": "Handling Characteristics of Motor Vehicles II",
@@ -1897,7 +2561,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "07.08.2025",
+      "day_of_week": "Do"
+    },
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Becker, Jens Course",
+        "Becker, Jürgen"
+      ],
+      "source_page": 251
+    }
   },
   {
     "name": "Hardware Synthesis and Optimization",
@@ -1926,7 +2608,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Harbaum, Tanja",
+        "Paraskevas, Foivos",
+        "Becker, Jürgen"
+      ],
+      "source_page": 251
+    }
   },
   {
     "name": "Heat and Mass Transfer",
@@ -1943,7 +2640,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00",
+        "Fri 09:45-11:15",
+        "Tue 08:00-09:30",
+        "Wed 08:00-09:30"
+      ],
+      "rooms": [
+        "30.33 Messtechnik-Hörsaal (MTI)",
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)",
+        "20.30 Seminarraum -1.013"
+      ],
+      "instructors": [
+        "Maas, Ulrich",
+        "Yu, Chunkan"
+      ],
+      "source_page": 392
+    }
   },
   {
     "name": "Heat Pumps",
@@ -1977,7 +2692,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "08.09.2025",
+      "day_of_week": "Mo"
+    },
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00",
+        "Mon 14:00-15:30"
+      ],
+      "rooms": [
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)"
+      ],
+      "instructors": [
+        "Leibfried, Thomas",
+        "Badent, Rainer"
+      ],
+      "source_page": 243
+    }
   },
   {
     "name": "High-Voltage Test Technique",
@@ -1989,10 +2723,28 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Thu 15:45-17:15",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)",
+        "30.36 IEH Room",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Braun, Lucas",
+        "Badent, Rainer",
+        "Mader, Jonathan"
+      ],
+      "source_page": 243
+    }
   },
   {
-    "name": "Holistic Approach of Managing Power Plant Operation under \nUncertainty and Volatility",
+    "name": "Holistic Approach of Managing Power Plant Operation under Uncertainty and Volatility",
     "ects": 4,
     "page": 176,
     "term": "WS",
@@ -2028,10 +2780,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-18:00",
+        "Tue 09:45-13:15"
+      ],
+      "instructors": [
+        "Dörr, Laura Organizational",
+        "Meyer, Anne",
+        "Maier, Thomas"
+      ],
+      "source_page": 368
+    }
   },
   {
-    "name": "Human Brain and Central Nervous System: Anatomy, Information \nTransfer, Signal Processing, Neurophysiology and Therapy",
+    "name": "Human Brain and Central Nervous System: Anatomy, Information Transfer, Signal Processing, Neurophysiology and Therapy",
     "ects": 3,
     "page": 178,
     "term": "Both",
@@ -2057,7 +2821,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15",
+        "Fri 08:00-09:30"
+      ],
+      "rooms": [
+        "50.34 Room -101",
+        "50.34 Room -102"
+      ],
+      "instructors": [
+        "Camp, Florian",
+        "Waibel, Alexander Pham",
+        "Kurth, Johannes"
+      ],
+      "source_page": 330
+    }
   },
   {
     "name": "Humanoid Robots - Seminar",
@@ -2074,10 +2854,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "rooms": [
+        "07.21 -Technologiefabrik"
+      ],
+      "instructors": [
+        "Schudeiske, Johannes",
+        "Asfour, Tamim"
+      ],
+      "source_page": 319
+    }
   },
   {
-    "name": "Hydrogen and reFuels - Energy Conversion in Combustion \nEngines",
+    "name": "Hydrogen and reFuels - Energy Conversion in Combustion Engines",
     "ects": 4,
     "page": 181,
     "term": "WS",
@@ -2091,7 +2881,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00",
+        "Wed 08:00-09:30",
+        "Tue 15:45-17:15",
+        "Thu 08:00-09:30"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "30.96 Seminarraum 006",
+        "20.40 Fritz-Haller-Hörsaal (HS37)"
+      ],
+      "instructors": [
+        "Koch, Thomas",
+        "Schmidt, Ferdinand Bykov",
+        "Braun, Samuel"
+      ],
+      "source_page": 373
+    }
   },
   {
     "name": "Industrial Circuitry",
@@ -2108,7 +2917,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Tue 09:45-11:15",
+        "Tue 08:00-09:30",
+        "Wed 11:30-13:00",
+        "Tue 14:00-19:00"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "11.10 Kleiner Hörsaal",
+        "11.10 ETI SR"
+      ],
+      "instructors": [
+        "Liske, Andreas",
+        "Hiller, Marc",
+        "Hiller, Marc"
+      ],
+      "source_page": 241
+    }
   },
   {
     "name": "Industrial Mobile Robotics Lab",
@@ -2167,7 +2996,30 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "01.08.2025",
+      "day_of_week": "Fr"
+    },
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Wed 09:45-11:15",
+        "Tue 09:45-11:15",
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)"
+      ],
+      "instructors": [
+        "Al-Hammadi, Abdullah",
+        "Heizmann, Michael"
+      ],
+      "source_page": 231
+    }
   },
   {
     "name": "Information Systems and Supply Chain Management",
@@ -2230,10 +3082,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Cichon, Martin Organizational",
+        "Cichon, Martin",
+        "Lang, Carolin"
+      ],
+      "source_page": 359
+    }
   },
   {
-    "name": "Innovation2Business – Innovation Strategy in the Industrial \nCorporate Practice",
+    "name": "Innovation2Business – Innovation Strategy in the Industrial Corporate Practice",
     "ects": 4,
     "page": 191,
     "term": "WS",
@@ -2247,7 +3114,15 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Englisch, Vortragssprache Englisch",
+        "Ploch, Andreas",
+        "Albers, Albert"
+      ],
+      "source_page": 376
+    }
   },
   {
     "name": "Innovative Concepts for Programming Industrial Robots",
@@ -2298,7 +3173,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "18.08.2025",
+      "day_of_week": "Mo"
+    }
   },
   {
     "name": "Integrated Photonics",
@@ -2310,7 +3190,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "06.45 Rost, Peter",
+        "06.45 Schmalen, Laurent",
+        "11.10 Kleiner Hörsaal"
+      ],
+      "instructors": [
+        "Aghassi-Hagmann, Jasmin",
+        "Koos, Christian"
+      ],
+      "source_page": 249
+    }
   },
   {
     "name": "Integrated Product Development",
@@ -2327,7 +3223,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:00-12:00",
+        "Thu 14:00-17:00",
+        "Tue 09:45-11:15",
+        "Thu 09:45-11:15",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "50.34 Room -101",
+        "50.34 Room 301",
+        "10.23 IPEK -"
+      ],
+      "instructors": [
+        "Albers, Albert",
+        "Müller-Quade, Jörn",
+        "Berger, Robin Marius"
+      ],
+      "source_page": 263
+    }
   },
   {
     "name": "Integrated Systems and Circuits",
@@ -2349,7 +3265,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "25.08.2025",
+      "day_of_week": "Mo"
+    }
   },
   {
     "name": "Interdisciplinary Qualifications",
@@ -2373,7 +3294,17 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15"
+      ],
+      "instructors": [
+        "Fleischer, Jürgen",
+        "Schulze, Volker"
+      ],
+      "source_page": 382
+    }
   },
   {
     "name": "Introduction into Energy Economics",
@@ -2412,7 +3343,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "30.10 ITIV Room",
+        "20.30 Seminarraum -1.025"
+      ],
+      "instructors": [
+        "Stork, Wilhelm",
+        "Sax, Eric Geb",
+        "Becker, Jürgen"
+      ],
+      "source_page": 252
+    }
   },
   {
     "name": "Introduction to Bionics",
@@ -2456,7 +3403,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Thu 14:00-15:30",
+        "Mon 14:00-15:30"
+      ],
+      "rooms": [
+        "10.91 Mittlerer Hörsaal",
+        "50.34 Room -102"
+      ],
+      "instructors": [
+        "Korvink, Jan Gerrit",
+        "Stiefelhagen, Rainer",
+        "Badilita, Vlad"
+      ],
+      "source_page": 262
+    }
   },
   {
     "name": "Introduction to Microsystem Technology II",
@@ -2531,7 +3495,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-15:30",
+        "Fri 09:45-11:15",
+        "Mon 13:30-15:30"
+      ],
+      "rooms": [
+        "10.81 Room 219.1",
+        "10.50 HS 102",
+        "20.30 Seminarraum -1.008"
+      ],
+      "instructors": [
+        "Badea, Aurelian Florin",
+        "Cheng, Xu"
+      ],
+      "source_page": 370
+    }
   },
   {
     "name": "IT/OT-Security Seminar",
@@ -2553,10 +3534,29 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30",
+        "Fri 11:30-13:00",
+        "Mon 15:45-17:15",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "40.50 (Engler-Bunte-Institut), Room",
+        "12.25 kann der",
+        "20.40 Fritz-Haller-Hörsaal (HS37)"
+      ],
+      "instructors": [
+        "Gardi, Hamza Aziz",
+        "Madsen, Marwin",
+        "Barth, Mike"
+      ],
+      "source_page": 234
+    }
   },
   {
-    "name": "IT-Fundamentals of Logistics: Opportunities for Digital \nTransformation",
+    "name": "IT-Fundamentals of Logistics: Opportunities for Digital Transformation",
     "ects": 4,
     "page": 215,
     "term": "SS",
@@ -2596,7 +3596,21 @@
         "area": "Energy Technology",
         "subcategory": "Internship/Lab Course"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "40.32 Rudolf-Plank-Hörsaal (RPH)"
+      ],
+      "instructors": [
+        "Maas, Ulrich",
+        "Bauer, Hans",
+        "Maas, Ulrich"
+      ],
+      "source_page": 393
+    }
   },
   {
     "name": "Laboratory FPGA Based Circuit Design",
@@ -2608,7 +3622,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-18:00",
+        "Wed 14:00-18:00"
+      ],
+      "rooms": [
+        "06.41 R 102"
+      ],
+      "instructors": [
+        "Mitarbeitende, Wed",
+        "Kempf, Sebastian"
+      ],
+      "source_page": 255
+    }
   },
   {
     "name": "Laboratory in Software Engineering",
@@ -2647,7 +3675,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Fri 08:00-09:30",
+        "Thu 09:45-11:15",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "10.50 Room 702",
+        "11.40 Seminarraum 231"
+      ],
+      "instructors": [
+        "Orth, Andre Fri",
+        "Stiller, Christoph Das",
+        "Hagenmeyer, Veit"
+      ],
+      "source_page": 371
+    }
   },
   {
     "name": "Laboratory Nanotechnology",
@@ -2664,7 +3710,15 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Neumann, Cornelius",
+        "Trampert, Klaus",
+        "Lemmer, Ulrich"
+      ],
+      "source_page": 258
+    }
   },
   {
     "name": "Laboratory Optoelectronics",
@@ -2676,7 +3730,15 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Trampert, Klaus",
+        "Trampert, Klaus",
+        "Lemmer, Ulrich"
+      ],
+      "source_page": 258
+    }
   },
   {
     "name": "Laboratory Solar Energy",
@@ -2693,7 +3755,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "20.21 Pool G"
+      ],
+      "instructors": [
+        "Paetzold, Ulrich Informationen",
+        "Trampert, Klaus",
+        "Richards, Bryce Sydney"
+      ],
+      "source_page": 258
+    }
   },
   {
     "name": "Leadership in Interdisciplinary Teams",
@@ -2720,7 +3796,14 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Matthiesen, Sven",
+        "Matthiesen, Sven"
+      ],
+      "source_page": 376
+    }
   },
   {
     "name": "Liberalised Power Markets",
@@ -2737,7 +3820,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 11:30-13:00",
+        "Fri 14:00-15:30",
+        "Wed 15:45-17:15",
+        "Thu 15:45-17:15"
+      ],
+      "rooms": [
+        "10.11 Room 213",
+        "10.11 Seminarraum Hauptgebäude",
+        "20.21 Pool C"
+      ],
+      "instructors": [
+        "Fichtner, Wolf",
+        "Plötz, Patrick"
+      ],
+      "source_page": 451
+    }
   },
   {
     "name": "Lighting Engineering",
@@ -2749,7 +3850,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15",
+        "Fri 09:45-11:15",
+        "Mon 15:45-17:15",
+        "Mon 09:45-11:15",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "30.33 Messtechnik-Hörsaal (MTI)",
+        "30.34 SR LTI",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Neumann, Cornelius",
+        "Neumann, Cornelius",
+        "Richards, Bryce Sydney"
+      ],
+      "source_page": 257
+    }
   },
   {
     "name": "Lightweight Engineering Design",
@@ -2822,7 +3943,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Wed 15:45-17:15"
+      ],
+      "rooms": [
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Prahs, Andreas Weygand",
+        "Fidlin, Alexander",
+        "Proppe, Carsten"
+      ],
+      "source_page": 390
+    }
   },
   {
     "name": "Machine Learning - Basic Methods",
@@ -2853,7 +3989,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 11:30-13:00",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "50.34 Room 236"
+      ],
+      "instructors": [
+        "Prautzsch, Hartmut",
+        "Meyerhenke, Henning"
+      ],
+      "source_page": 333
+    }
   },
   {
     "name": "Machine Learning 1",
@@ -2865,7 +4015,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Fri 09:45-11:15",
+        "Mon 15:45-17:15",
+        "Mon 15:45-17:15",
+        "Mon 15:45-17:15",
+        "Tue 11:30-13:00"
+      ],
+      "rooms": [
+        "50.35 Hörsaal am",
+        "20.40 Fritz-Haller-Hörsaal (HS37)"
+      ],
+      "instructors": [
+        "Bied, Manuel Schrapel",
+        "Zöllner, Johann Marius"
+      ],
+      "source_page": 466
+    }
   },
   {
     "name": "Machine Learning 2",
@@ -2926,7 +4095,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15",
+        "Thu 15:45-17:15"
+      ],
+      "rooms": [
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Lanza, Gisela Räume",
+        "Rayyes, Rania",
+        "Schneider, Loris Thu"
+      ],
+      "source_page": 367
+    }
   },
   {
     "name": "Machine Learning for Robotic Systems 2",
@@ -3034,7 +4218,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00",
+        "Thu 09:45-11:15",
+        "Thu 09:45-11:15",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "10.50 Bauingenieure, Großer",
+        "10.91 Mittlerer Hörsaal"
+      ],
+      "instructors": [
+        "Bauingenieure, Gro",
+        "Aghassi-Hagmann, Jasmin",
+        "Heizmann, Michael"
+      ],
+      "source_page": 232
+    }
   },
   {
     "name": "Magnet Technology of Fusion Reactors",
@@ -3063,7 +4266,22 @@
       {
         "type": "Master's Thesis"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "10.91 Mittlerer Hörsaal"
+      ],
+      "instructors": [
+        "Cichon, Martin",
+        "Cichon, Martin",
+        "Cichon, Martin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Materials for Lightweight Construction",
@@ -3119,7 +4337,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Thu 11:30-13:00",
+        "Tue 11:30-13:00"
+      ],
+      "rooms": [
+        "10.23 R609",
+        "10.50 Room 701.3",
+        "10.23 Room 609"
+      ],
+      "instructors": [
+        "Frohnapfel, Bettina Thu",
+        "Gatti, Davide",
+        "Stroh, Alexander"
+      ],
+      "source_page": 387
+    }
   },
   {
     "name": "Mathematical Methods in Hydraulics",
@@ -3153,7 +4389,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Mon 11:30-13:00"
+      ],
+      "rooms": [
+        "10.91 Oberer Hörsaal"
+      ],
+      "instructors": [
+        "Weygand, Daniel",
+        "Gruber, Patric Greiner",
+        "Kirchlechner, Christoph"
+      ],
+      "source_page": 350
+    }
   },
   {
     "name": "Mechatronic Measurement Systems Lab",
@@ -3165,7 +4416,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "10.50 HS 102"
+      ],
+      "instructors": [
+        "Heizmann, Michael",
+        "Steffens, Johannes Semesterbegleitende"
+      ],
+      "source_page": 232
+    }
   },
   {
     "name": "Medical Image Processing for Guidance and Navigation",
@@ -3177,7 +4441,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00",
+        "Thu 09:45-13:00",
+        "Thu 09:00-17:00",
+        "Fri 09:00-17:00"
+      ],
+      "rooms": [
+        "30.28 Seminarraum 2",
+        "20.21 Pool G",
+        "10.50 Room 602"
+      ],
+      "instructors": [
+        "Spadea, Maria",
+        "Riggio, Domenico Hopp",
+        "Raggio, Ciro Benito"
+      ],
+      "source_page": 239
+    }
   },
   {
     "name": "Micro System Simulation",
@@ -3257,7 +4540,25 @@
         "area": "Micro System Technology",
         "subcategory": "Internship/Lab Course"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 08:00-09:30",
+        "Wed 14:00-15:30",
+        "Wed 15:45-17:15"
+      ],
+      "rooms": [
+        "10.91 Room 228",
+        "50.35 Seminarraum 101",
+        "50.19 Seminarraum 3"
+      ],
+      "instructors": [
+        "Mager, Dario Organizational",
+        "Korvink, Jan Gerrit",
+        "Ahrens, Ralf Guber"
+      ],
+      "source_page": 381
+    }
   },
   {
     "name": "Microsystem Technology",
@@ -3274,7 +4575,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30",
+        "Tue 11:30-13:00",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "10.50 Bauingenieure, Großer",
+        "30.10 ITIV Room",
+        "20.30 Seminarraum -1.025"
+      ],
+      "instructors": [
+        "Bauingenieure, Gro",
+        "Informatik, Raum New",
+        "Stork, Wilhelm"
+      ],
+      "source_page": 252
+    }
   },
   {
     "name": "Microwave Engineering Lab",
@@ -3286,7 +4605,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "27.08.2025",
+      "day_of_week": "Mi"
+    },
+    "schedule": {
+      "instructors": [
+        "Pauli, Mario",
+        "Bhutani, Akanksha",
+        "Jelonnek, John"
+      ],
+      "source_page": 244
+    }
   },
   {
     "name": "Microwaves Measurement Techniques I",
@@ -3344,7 +4676,14 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Schmalen, Laurent Rost",
+        "Ulusoy, Ahmet Cagri"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Mobile Machines",
@@ -3376,7 +4715,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 09:45-17:15"
+      ],
+      "rooms": [
+        "70.04 Room 219",
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Kremmer, Martin",
+        "Geerling, Gerhard",
+        "Geimer, Marcus"
+      ],
+      "source_page": 365
+    }
   },
   {
     "name": "Modeling Physiological Systems",
@@ -3400,7 +4755,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "10.50 Room 702",
+        "11.40 Seminarraum 231"
+      ],
+      "instructors": [
+        "Groell, Lutz",
+        "Hagenmeyer, Veit Nach",
+        "Pylatiuk, Christian Nach"
+      ],
+      "source_page": 371
+    }
   },
   {
     "name": "Modern Control Concepts II",
@@ -3417,7 +4788,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "10.50 Room 702",
+        "11.40 Seminarraum 231"
+      ],
+      "instructors": [
+        "Groell, Lutz",
+        "Hagenmeyer, Veit Nach",
+        "Pylatiuk, Christian Nach"
+      ],
+      "source_page": 371
+    }
   },
   {
     "name": "Modern Control Concepts III",
@@ -3451,7 +4838,17 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-18:00"
+      ],
+      "instructors": [
+        "Pauli, Mario",
+        "Bhutani, Akanksha"
+      ],
+      "source_page": 244
+    }
   },
   {
     "name": "Modern VLSI Technologies",
@@ -3502,7 +4899,13 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Frey, Michael"
+      ],
+      "source_page": 361
+    }
   },
   {
     "name": "Multivariable Control Systems",
@@ -3564,7 +4967,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 09:45-11:15"
+      ],
+      "rooms": [
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Fehn, Lorenz Udo",
+        "Kluwe, Mathias"
+      ],
+      "source_page": 234
+    }
   },
   {
     "name": "Nano- and Quantum Electronics",
@@ -3581,7 +4998,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "10.09.2025",
+      "day_of_week": "Mi"
+    }
   },
   {
     "name": "NMR Micro Probe Hardware Conception and Construction",
@@ -3617,14 +5039,19 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "15.08.2025",
+      "day_of_week": "Fr"
+    }
   },
   {
     "name": "Nonlinear Optics",
     "ects": 6,
     "page": 290,
     "term": "SS",
-    "type": "seminar",
+    "type": "lecture",
     "partOf": [
       {
         "type": "Elective Area in Mechatronics and Information Technology"
@@ -3656,7 +5083,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-15:30",
+        "Fri 08:00-09:30"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Mikut, Ralf",
+        "Reischl, Markus",
+        "Kohl, Manfred"
+      ],
+      "source_page": 263
+    }
   },
   {
     "name": "Nuclear Power and Reactor Technology",
@@ -3673,7 +5115,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 13:30-15:30",
+        "Fri 09:45-13:00"
+      ],
+      "rooms": [
+        "10.81 Room 219.1"
+      ],
+      "instructors": [
+        "Badea, Aurelian Florin",
+        "Cheng, Xu"
+      ],
+      "source_page": 370
+    }
   },
   {
     "name": "Nuclear Power Plant Technology",
@@ -3717,7 +5173,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00",
+        "Wed 11:30-13:00",
+        "Thu 15:45-17:15",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "10.81 Emil-Mosonyi-Seminarraum (HS",
+        "10.91 Mittlerer Hörsaal",
+        "10.50 HS 101"
+      ],
+      "instructors": [
+        "Böhlke, Thomas",
+        "Gatti, Davide",
+        "Betsch, Peter"
+      ],
+      "source_page": 386
+    }
   },
   {
     "name": "Numerical Methods",
@@ -3789,7 +5264,28 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "24.09.2025",
+      "day_of_week": "Mi"
+    },
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Thu 14:00-15:30",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "20.30 SR 2.059"
+      ],
+      "instructors": [
+        "Nagato-Plum, Kaori",
+        "Nagato-Plum, Kaori",
+        "Eichhorn, Marc"
+      ],
+      "source_page": 233
+    }
   },
   {
     "name": "Numerical Methods with Programming Practice",
@@ -3885,7 +5381,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00",
+        "Thu 09:45-11:15",
+        "Thu 09:45-11:15",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)",
+        "10.50 Bauingenieure, Großer",
+        "10.91 Mittlerer Hörsaal"
+      ],
+      "instructors": [
+        "Bauingenieure, Gro",
+        "Aghassi-Hagmann, Jasmin",
+        "Heizmann, Michael"
+      ],
+      "source_page": 232
+    }
   },
   {
     "name": "Optical Transmitters and Receivers",
@@ -3897,7 +5412,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Fri 09:45-11:15",
+        "Fri 11:30-13:00"
+      ],
+      "rooms": [
+        "30.10 IPQ Room"
+      ],
+      "instructors": [
+        "Koos, Christian Randel",
+        "Freude, Wolfgang"
+      ],
+      "source_page": 247
+    }
   },
   {
     "name": "Optimal Control",
@@ -3969,7 +5499,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 14:00-15:30",
+        "Wed 14:00-15:30"
+      ],
+      "rooms": [
+        "30.46 Neuer Hörsaal"
+      ],
+      "instructors": [
+        "Riffel, Jan",
+        "Hohmann, Sören"
+      ],
+      "source_page": 232
+    }
   },
   {
     "name": "Optimal Control and Estimation",
@@ -4047,7 +5591,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Tue 09:45-11:15"
+      ],
+      "rooms": [
+        "50.19 Seminarraum 4",
+        "30.23 Room 2/17"
+      ],
+      "instructors": [
+        "Hunger, David Kreysing",
+        "Holzapfel, Bernhard",
+        "Arndt, Tabea"
+      ],
+      "source_page": 259
+    }
   },
   {
     "name": "Pattern Recognition",
@@ -4103,7 +5663,12 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "06.08.2025",
+      "day_of_week": "Mi"
+    }
   },
   {
     "name": "Physical Basics of Laser Technology",
@@ -4120,7 +5685,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 08:00-09:30",
+        "Thu 15:45-17:15",
+        "Tue 08:00-11:00",
+        "Tue 08:00-11:00",
+        "Tue 14:00-17:00",
+        "Tue 14:00-17:00",
+        "Wed 08:00-11:00",
+        "Wed 08:00-11:00"
+      ],
+      "instructors": [
+        "Schneider, Johannes",
+        "Schneider, Johannes",
+        "Greiner, Christian Weygand"
+      ],
+      "source_page": 356
+    }
   },
   {
     "name": "Plasma Sources",
@@ -4132,7 +5715,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "30.34 SR LTI",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Powalla, Michael",
+        "Kling, Rainer"
+      ],
+      "source_page": 258
+    }
   },
   {
     "name": "Polymers in MEMS A: Chemistry, Synthesis and Applications",
@@ -4154,7 +5752,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 08:00-09:30",
+        "Thu 11:30-13:00",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "10.91 Room 228"
+      ],
+      "instructors": [
+        "Worgull, Matthias",
+        "Chemistry, Synthesis",
+        "Sommer, Martin"
+      ],
+      "source_page": 380
+    }
   },
   {
     "name": "Polymers in MEMS B: Physics, Microstructuring and Applications",
@@ -4176,7 +5790,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "10.91 Room 228"
+      ],
+      "instructors": [
+        "Physics, Microstructuring",
+        "Kinnon, Neil",
+        "Worgull, Matthias"
+      ],
+      "source_page": 380
+    }
   },
   {
     "name": "Polymers in MEMS C: Biopolymers and Bioplastics",
@@ -4210,7 +5839,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-17:15",
+        "Thu 14:00-17:15",
+        "Wed 09:45-11:15",
+        "Wed 09:45-11:15",
+        "Tue 14:00-15:30",
+        "Wed 08:00-09:30"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "11.10 ETI SR",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Hiller, Marc",
+        "Doppelbauer, Martin"
+      ],
+      "source_page": 240
+    }
   },
   {
     "name": "Power Electronics",
@@ -4232,7 +5881,33 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "19.08.2025",
+      "day_of_week": "Di"
+    },
+    "schedule": {
+      "times": [
+        "Mon 14:00-17:15",
+        "Tue 14:00-17:15",
+        "Wed 14:00-17:15",
+        "Thu 14:00-17:15",
+        "Wed 09:45-11:15",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "11.10 ETI SR",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Vereinbarung, Ort",
+        "Hiller, Marc",
+        "Doppelbauer, Martin"
+      ],
+      "source_page": 240
+    }
   },
   {
     "name": "Power System Protection and Automation",
@@ -4249,7 +5924,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-17:15",
+        "Wed 09:45-13:00"
+      ],
+      "rooms": [
+        "11.10 ETI SR"
+      ],
+      "instructors": [
+        "Loitz, Sönke",
+        "Zwick, Thomas",
+        "Ulusoy, Ahmet Cagri"
+      ],
+      "source_page": 244
+    }
   },
   {
     "name": "Power Systems and Economy",
@@ -4266,7 +5956,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 14:00-16:30",
+        "Mon 17:30-19:00",
+        "Wed 17:30-19:00"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "20.30 SR 2.058"
+      ],
+      "instructors": [
+        "Müller, Georg",
+        "Weissmüller, Gerhard"
+      ],
+      "source_page": 244
+    }
   },
   {
     "name": "Power Tool Design",
@@ -4342,7 +6048,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 11:30-13:00",
+        "Fri 08:00-09:30"
+      ],
+      "rooms": [
+        "10.50 HS 101"
+      ],
+      "instructors": [
+        "Brodatzki, Matthias",
+        "Hiller, Marc",
+        "Schneider, Tobias"
+      ],
+      "source_page": 242
+    }
   },
   {
     "name": "Practical Course Polymers in MEMS",
@@ -4381,7 +6102,18 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Wed 09:45-13:00"
+      ],
+      "instructors": [
+        "Simon, Kevin Wed",
+        "Frey, Michael"
+      ],
+      "source_page": 363
+    }
   },
   {
     "name": "Practical Course: Machine Learning and Intelligent Systems",
@@ -4408,7 +6140,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 16:00-17:30",
+        "Fri 14:00-17:00",
+        "Fri 14:00-17:00",
+        "Fri 14:00-17:00",
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "50.34 Room 148",
+        "50.20 Room 148"
+      ],
+      "instructors": [
+        "Hanebeck, Uwe",
+        "Prossel, Dominik",
+        "Schlöder, Tobias"
+      ],
+      "source_page": 323
+    }
   },
   {
     "name": "Practical Course: Smart Energy System",
@@ -4428,7 +6179,7 @@
     ]
   },
   {
-    "name": "Practical Course: Software Development and Application of \nMobile, Bio-Inspired Robots",
+    "name": "Practical Course: Software Development and Application of Mobile, Bio-Inspired Robots",
     "ects": 6,
     "page": 343,
     "term": "WS",
@@ -4496,7 +6247,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 14:00-15:30",
+        "Fri 11:30-13:00",
+        "Mon 15:45-17:15",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "40.50 (Engler-Bunte-Institut), Room",
+        "12.25 kann der",
+        "20.40 Fritz-Haller-Hörsaal (HS37)"
+      ],
+      "instructors": [
+        "Madsen, Marwin",
+        "Barth, Mike",
+        "Varga, Balint"
+      ],
+      "source_page": 234
+    }
   },
   {
     "name": "Practical Training in Basics of Microsystem Technology",
@@ -4530,7 +6300,18 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 12:00-15:00",
+        "Thu 12:00-15:00",
+        "Fri 12:00-15:00"
+      ],
+      "instructors": [
+        "Harrer, Manfred"
+      ],
+      "source_page": 362
+    }
   },
   {
     "name": "Principles of Whole Vehicle Engineering II",
@@ -4606,7 +6387,15 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Steegmüller, Dieter",
+        "Lanza, Gisela Räume",
+        "Kienzle, Stefan Termine"
+      ],
+      "source_page": 383
+    }
   },
   {
     "name": "Product Development - Methods of Product Engineering",
@@ -4683,7 +6472,7 @@
     ]
   },
   {
-    "name": "Project Management in the Development of Products for Safety-\nCritical Applications",
+    "name": "Project Management in the Development of Products for Safety- Critical Applications",
     "ects": 4,
     "page": 356,
     "term": "WS",
@@ -4707,7 +6496,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-11:15",
+        "Thu 14:00-15:30",
+        "Thu 15:45-17:15",
+        "Mon 08:00-17:00"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "20.30 Seminarraum 0.014"
+      ],
+      "instructors": [
+        "Nolle, Manfred",
+        "Schmerler, Stefan",
+        "Nolle, Manfred"
+      ],
+      "source_page": 252
+    }
   },
   {
     "name": "Project Workshop: Automotive Engineering",
@@ -4724,7 +6531,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-11:15"
+      ],
+      "rooms": [
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Frey, Michael Begrenzte",
+        "Weitz, Fabian"
+      ],
+      "source_page": 361
+    }
   },
   {
     "name": "Python Algorithms for Automotive Engineering",
@@ -4768,7 +6588,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "50.34 Room -101"
+      ],
+      "instructors": [
+        "Schaefer, Ina Organizational",
+        "Tabar, Asmae",
+        "Schaefer, Ina"
+      ],
+      "source_page": 331
+    }
   },
   {
     "name": "Quantum Detectors and Sensors",
@@ -4785,7 +6620,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15",
+        "Wed 11:30-13:00",
+        "Wed 11:30-13:00",
+        "Tue 15:45-17:15"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)",
+        "20.30 Seminarraum -1.008"
+      ],
+      "instructors": [
+        "Scherer, Theo",
+        "Zeuner, Jodok",
+        "Kempf, Sebastian"
+      ],
+      "source_page": 254
+    }
   },
   {
     "name": "Quantum Machine Learning",
@@ -4797,7 +6651,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Tue 14:00-15:30",
+        "Thu 08:00-09:30"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Gardi, Hamza Aziz",
+        "West, Bldg",
+        "Bihler, Manuel"
+      ],
+      "source_page": 231
+    }
   },
   {
     "name": "Quantum Machines I",
@@ -4858,7 +6728,29 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "29.07.2025",
+      "day_of_week": "Di"
+    },
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 14:00-16:00",
+        "Thu 15:45-17:15",
+        "Fri 11:30-13:00"
+      ],
+      "rooms": [
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Kuo, Tai",
+        "Zwick, Thomas",
+        "Ulusoy, Ahmet Cagri"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Rail System Technology",
@@ -4880,7 +6772,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "10.91 Mittlerer Hörsaal",
+        "15.30 Uhr am"
+      ],
+      "instructors": [
+        "Cichon, Martin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Rail Vehicle Technology",
@@ -4902,7 +6808,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "10.91 Mittlerer Hörsaal",
+        "15.30 Uhr am"
+      ],
+      "instructors": [
+        "Ziesel, Patrick Teilnehmerzahl",
+        "Cichon, Martin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Railway System Digitalisation",
@@ -4919,7 +6840,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 08:00-09:30",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Jost, Franz",
+        "Cichon, Martin Organizational",
+        "Lang, Carolin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Railways in the Transportation Market",
@@ -4939,7 +6875,7 @@
     ]
   },
   {
-    "name": "Re:Invent - Revolutionary Business Models as the Basis for \nProduct Innovations",
+    "name": "Re:Invent - Revolutionary Business Models as the Basis for Product Innovations",
     "ects": 4,
     "page": 373,
     "term": "SS",
@@ -5014,7 +6950,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 09:45-11:15",
+        "Thu 08:00-09:30",
+        "Wed 09:45-11:15",
+        "Tue 09:45-11:15"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal"
+      ],
+      "instructors": [
+        "Liske, Andreas"
+      ],
+      "source_page": 241
+    }
   },
   {
     "name": "Reinforcement Learning",
@@ -5041,7 +6992,29 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Fri 08:00-09:30",
+        "Thu 09:45-11:15",
+        "Fri 11:30-13:00",
+        "Mon 08:00-09:30",
+        "Wed 08:00-09:30",
+        "Thu 08:00-09:30"
+      ],
+      "rooms": [
+        "10.81 Friedrich-Engesser-Hörsaal (HS93)",
+        "30.46 Neuer Hörsaal",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Truetsch, Julian",
+        "Neumann, Gerhard",
+        "Merkert, Jonas Fri"
+      ],
+      "source_page": 263
+    }
   },
   {
     "name": "Reliability and Test Engineering",
@@ -5078,7 +7051,17 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 08:00-09:30"
+      ],
+      "instructors": [
+        "Sommer, Martin",
+        "Gwosch, Thomas"
+      ],
+      "source_page": 263
+    }
   },
   {
     "name": "Renewable Energy-Resources, Technologies and Economics",
@@ -5100,7 +7083,28 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 15:45-17:15",
+        "Fri 14:00-17:00",
+        "Thu 09:45-17:15",
+        "Fri 08:00-14:00",
+        "Thu 09:45-17:15",
+        "Fri 08:00-14:00"
+      ],
+      "rooms": [
+        "10.11 Room 213",
+        "10.81 Friedrich-Engesser-Hörsaal (HS93)",
+        "10.50 Room 604"
+      ],
+      "instructors": [
+        "Jochem, Patrick",
+        "Resources, Technologies",
+        "Britto, Vivian Anthony"
+      ],
+      "source_page": 451
+    }
   },
   {
     "name": "Robotics - Practical Course",
@@ -5117,7 +7121,14 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "instructors": [
+        "Dukek, Martin Müller",
+        "Neumann, Gerhard"
+      ],
+      "source_page": 325
+    }
   },
   {
     "name": "Robotics II - Humanoid Robotics",
@@ -5193,7 +7204,18 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 11:30-13:00"
+      ],
+      "instructors": [
+        "Breisacher, Pirmin",
+        "Wagemann, Eric Appointments",
+        "Robotics, Automation"
+      ],
+      "source_page": 235
+    }
   },
   {
     "name": "Seamless Engineering",
@@ -5235,7 +7257,22 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Thu 09:45-11:15"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "50.38 Room 0.22"
+      ],
+      "instructors": [
+        "Sax, Eric Thu",
+        "Furmans, Kai"
+      ],
+      "source_page": 366
+    }
   },
   {
     "name": "Seminar Data-Mining in Production",
@@ -5247,7 +7284,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-17:15",
+        "Tue 08:00-17:15"
+      ],
+      "rooms": [
+        "70.41 Forschungsfabrik Single"
+      ],
+      "instructors": [
+        "Lanza, Gisela",
+        "Fleischer, Jürgen"
+      ],
+      "source_page": 384
+    }
   },
   {
     "name": "Seminar Electrocatalysis",
@@ -5264,7 +7315,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-11:15"
+      ],
+      "rooms": [
+        "50.41 Room -108"
+      ],
+      "instructors": [
+        "Menesklou, Wolfgang",
+        "Weber, Andre",
+        "Röse, Philipp"
+      ],
+      "source_page": 236
+    }
   },
   {
     "name": "Seminar Embedded Systems",
@@ -5281,7 +7346,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-18:00"
+      ],
+      "rooms": [
+        "30.10 ITIV Room"
+      ],
+      "instructors": [
+        "Stork, Wilhelm",
+        "Sax, Eric Geb",
+        "Becker, Jürgen"
+      ],
+      "source_page": 252
+    }
   },
   {
     "name": "Seminar for Rail System Technology",
@@ -5293,7 +7372,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Mon 08:00-09:30"
+      ],
+      "rooms": [
+        "10.91 Mittlerer Hörsaal",
+        "70.04 FAST, Room",
+        "15.30 Uhr am"
+      ],
+      "instructors": [
+        "Ziesel, Patrick Teilnehmerzahl",
+        "Jost, Franz",
+        "Cichon, Martin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Seminar Industrial Process and Plant Engineering",
@@ -5344,7 +7440,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 14:00-17:15",
+        "Thu 14:00-17:15",
+        "Wed 09:45-11:15",
+        "Wed 09:45-11:15",
+        "Tue 14:00-15:30",
+        "Wed 08:00-09:30"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "11.10 ETI SR",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Hiller, Marc",
+        "Doppelbauer, Martin"
+      ],
+      "source_page": 240
+    }
   },
   {
     "name": "Seminar Novel Concepts for Solar Energy Harvesting",
@@ -5378,7 +7494,17 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 09:45-11:15"
+      ],
+      "instructors": [
+        "Meyer, Anne",
+        "Rönnau, Arne"
+      ],
+      "source_page": 368
+    }
   },
   {
     "name": "Seminar: Energy Informatics",
@@ -5392,7 +7518,21 @@
         "area": "Energy Technology",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30"
+      ],
+      "rooms": [
+        "50.34 Room 236"
+      ],
+      "instructors": [
+        "Hagenmeyer, Veit",
+        "Geiges, Jakob Schmurr",
+        "Bauer, Rebecca Astrid"
+      ],
+      "source_page": 320
+    }
   },
   {
     "name": "Sensors",
@@ -5424,7 +7564,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15"
+      ],
+      "rooms": [
+        "30.10 Room 3.40"
+      ],
+      "instructors": [
+        "Zwick, Thomas",
+        "Ulusoy, Ahmet Cagri",
+        "Hohmann, Sören"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Signal Processing Lab",
@@ -5473,10 +7627,33 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "03.09.2025",
+      "day_of_week": "Mi"
+    },
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00",
+        "Wed 11:30-13:00",
+        "Thu 11:30-13:00",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "30.46 Neuer Hörsaal",
+        "11.10 Engelbert-Arnold-Hörsaal (EAS)"
+      ],
+      "instructors": [
+        "Gardi, Hamza Aziz",
+        "Wahls, Sander"
+      ],
+      "source_page": 231
+    }
   },
   {
-    "name": "Signal Processing with Nonlinear Fourier Transforms and \nKoopman Operators",
+    "name": "Signal Processing with Nonlinear Fourier Transforms and Koopman Operators",
     "ects": 6,
     "page": 406,
     "term": "SS",
@@ -5502,7 +7679,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 09:45-11:15",
+        "Thu 11:30-13:00",
+        "Wed 11:30-13:00",
+        "Thu 09:45-11:15",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "50.34 Room 236",
+        "50.19 Seminarraum 4",
+        "50.34 Room -119"
+      ],
+      "instructors": [
+        "Walzer, Stefan Thu",
+        "Hermann, Stefan",
+        "Mombaur, Katja"
+      ],
+      "source_page": 332
+    }
   },
   {
     "name": "Simulation with Lumped Parameters",
@@ -5551,7 +7748,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "04.08.2025",
+      "day_of_week": "Mo"
+    },
+    "schedule": {
+      "times": [
+        "Thu 09:00-17:00",
+        "Fri 09:00-17:00"
+      ],
+      "rooms": [
+        "20.21 Pool G"
+      ],
+      "instructors": [
+        "Loewe, Axel Fri",
+        "Houillon, Marie",
+        "Riggio, Domenico Hopp"
+      ],
+      "source_page": 239
+    }
   },
   {
     "name": "Solar Energy",
@@ -5568,7 +7785,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15",
+        "Mon 09:45-11:15",
+        "Thu 11:30-13:00",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "30.33 Messtechnik-Hörsaal (MTI)",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Neumann, Cornelius",
+        "Paetzold, Ulrich Thu",
+        "Richards, Bryce Sydney"
+      ],
+      "source_page": 257
+    }
   },
   {
     "name": "Solar Thermal Energy Systems",
@@ -5585,7 +7820,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 09:45-11:15",
+        "Tue 09:45-11:15",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "10.81 Room 219.1",
+        "10.91 Oberer Hörsaal",
+        "20.30 Seminarraum -1.009"
+      ],
+      "instructors": [
+        "Schmidt, Ferdinand",
+        "Dagan, Ron"
+      ],
+      "source_page": 370
+    }
   },
   {
     "name": "Spaceborne Radar Remote Sensing",
@@ -5597,7 +7849,26 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "04.09.2025",
+      "day_of_week": "Do"
+    },
+    "schedule": {
+      "times": [
+        "Wed 08:00-09:30"
+      ],
+      "rooms": [
+        "30.35 Hochspannungstechnik-Hörsaal (HSI)"
+      ],
+      "instructors": [
+        "Marek, Alexander",
+        "Younis, Marwan",
+        "Jelonnek, John"
+      ],
+      "source_page": 245
+    }
   },
   {
     "name": "Stochastic Information Processing",
@@ -5624,10 +7895,24 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 15:45-17:15",
+        "Thu 14:00-15:30"
+      ],
+      "rooms": [
+        "50.20 Room 148",
+        "50.34 Room -102"
+      ],
+      "instructors": [
+        "Hanebeck, Uwe"
+      ],
+      "source_page": 328
+    }
   },
   {
-    "name": "Strategic Product Development - Identification of Potentials of \nInnovative Products",
+    "name": "Strategic Product Development - Identification of Potentials of Innovative Products",
     "ects": 4,
     "page": 417,
     "term": "SS",
@@ -5655,7 +7940,25 @@
         "area": "Design of Mechatronic Systems",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 11:30-13:00",
+        "Tue 08:00-09:30",
+        "Wed 09:45-11:15"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "10.91 Oberer Hörsaal",
+        "10.50 HS 102"
+      ],
+      "instructors": [
+        "Gumbsch, Peter Organizational",
+        "Bauer, Jens Schönebeck",
+        "Gruber, Patric"
+      ],
+      "source_page": 350
+    }
   },
   {
     "name": "Student Innovation Lab",
@@ -5706,10 +8009,27 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 08:00-09:30",
+        "Mon 15:45-17:15",
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "11.10 Kleiner Hörsaal",
+        "20.30 Seminarraum -1.008"
+      ],
+      "instructors": [
+        "Zeuner, Jodok",
+        "Noe, Mathias",
+        "Kempf, Sebastian"
+      ],
+      "source_page": 254
+    }
   },
   {
-    "name": "Sustainable Product Engineering: Sustainable Product Design - \nLong-term Business Success with Sustainably Developed Products",
+    "name": "Sustainable Product Engineering: Sustainable Product Design - Long-term Business Success with Sustainably Developed Products",
     "ects": 4,
     "page": 425,
     "term": "SS",
@@ -5726,7 +8046,7 @@
     ]
   },
   {
-    "name": "System Integration and Communication Structures in Industry 4.0 \nand IoT",
+    "name": "System Integration and Communication Structures in Industry 4.0 and IoT",
     "ects": 3,
     "page": 427,
     "term": "WS",
@@ -5757,7 +8077,21 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "11.40 Seminarraum 202"
+      ],
+      "instructors": [
+        "Gengenbach, Ulrich",
+        "Mikut, Ralf Nach",
+        "Mistrangelo, Chiara"
+      ],
+      "source_page": 371
+    }
   },
   {
     "name": "System Integration in Micro- and Nanotechnology 2",
@@ -5838,7 +8172,30 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "exam": {
+      "type": "Written examination",
+      "date": "17.09.2025",
+      "day_of_week": "Mi"
+    },
+    "schedule": {
+      "times": [
+        "Tue 15:45-17:15",
+        "Mon 09:45-11:15",
+        "Tue 09:45-11:15",
+        "Thu 11:30-13:00"
+      ],
+      "rooms": [
+        "30.41 Chemie-Hörsaal Nr.",
+        "30.10 Nachrichtentechnik-Hörsaal (NTI)"
+      ],
+      "instructors": [
+        "Stork, Wilhelm Termine",
+        "Vereinbarung, Geb",
+        "Sax, Eric"
+      ],
+      "source_page": 251
+    }
   },
   {
     "name": "Technical Design in Product Development",
@@ -5862,7 +8219,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Tue 14:00-15:30",
+        "Wed 15:45-17:15",
+        "Fri 09:45-11:15",
+        "Mon 15:45-17:15"
+      ],
+      "rooms": [
+        "30.33 Messtechnik-Hörsaal (MTI)",
+        "30.34 SR LTI",
+        "30.34 Lichttechnik-Hörsaal (LTI)"
+      ],
+      "instructors": [
+        "Neumann, Cornelius",
+        "Colsmann, Alexander"
+      ],
+      "source_page": 257
+    }
   },
   {
     "name": "Thermal Solar Energy",
@@ -5896,7 +8271,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 12:30-13:00",
+        "Wed 14:00-15:30"
+      ],
+      "rooms": [
+        "50.19 Seminarraum 4"
+      ],
+      "instructors": [
+        "Bauer, Hans"
+      ],
+      "source_page": 393
+    }
   },
   {
     "name": "Thermal-Fluid-Dynamics",
@@ -5913,7 +8301,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 09:45-13:00",
+        "Fri 14:00-17:00",
+        "Thu 09:45-11:15",
+        "Tue 09:45-11:15"
+      ],
+      "rooms": [
+        "10.91 Oberer Hörsaal",
+        "20.30 Seminarraum -1.009"
+      ],
+      "instructors": [
+        "Ruck, Sebastian",
+        "Dagan, Ron",
+        "Schmidt, Ferdinand"
+      ],
+      "source_page": 370
+    }
   },
   {
     "name": "Thermodynamics of the Energy Transition",
@@ -5927,7 +8333,25 @@
         "area": "Energy Technology",
         "subcategory": "Additive Electives"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Thu 15:45-17:15",
+        "Thu 15:45-17:15",
+        "Tue 09:45-11:15",
+        "Wed 09:30-10:30"
+      ],
+      "rooms": [
+        "10.81 Room 219.1",
+        "50.35 Seminarraum 101"
+      ],
+      "instructors": [
+        "Ottenburger, Sadeeb",
+        "Banuti, Daniel",
+        "Otic, Ivan"
+      ],
+      "source_page": 372
+    }
   },
   {
     "name": "Tires and Wheel Development for Passenger Cars",
@@ -5961,7 +8385,25 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Mon 14:00-15:30",
+        "Fri 09:45-17:15",
+        "Mon 08:00-09:30"
+      ],
+      "rooms": [
+        "70.04 Room 219",
+        "70.04 FAST, Room",
+        "20.40 Architektur-Hörsaal Nr."
+      ],
+      "instructors": [
+        "Kremmer, Martin",
+        "Geerling, Gerhard",
+        "Geimer, Marcus"
+      ],
+      "source_page": 365
+    }
   },
   {
     "name": "Ubiquitous Computing",
@@ -6048,7 +8490,23 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Fri 11:30-13:00",
+        "Mon 09:45-11:15"
+      ],
+      "rooms": [
+        "30.28 Seminarraum 2",
+        "10.81 Friedrich-Engesser-Hörsaal (HS93)"
+      ],
+      "instructors": [
+        "Henning, Frank",
+        "Kärger, Luise",
+        "Strategies, Concepts"
+      ],
+      "source_page": 363
+    }
   },
   {
     "name": "Vehicle Systems for Urban Mobility",
@@ -6065,7 +8523,20 @@
       {
         "type": "Elective Area in Mechatronics and Information Technology"
       }
-    ]
+    ],
+    "schedule": {
+      "times": [
+        "Wed 11:30-13:00"
+      ],
+      "rooms": [
+        "70.04 FAST, Room"
+      ],
+      "instructors": [
+        "Ziesel, Patrick Organizational",
+        "Cichon, Martin"
+      ],
+      "source_page": 359
+    }
   },
   {
     "name": "Wearable Robotic Technologies",
