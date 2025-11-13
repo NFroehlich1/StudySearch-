@@ -398,8 +398,9 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
     );
   }
 
-  return (
-    <div className="space-y-6">
+  try {
+    return (
+      <div className="space-y-6">
       <div>
         <h3 className="text-2xl font-semibold flex items-center gap-2">
           Module Library
@@ -635,8 +636,16 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
           </div>
         </ScrollArea>
       )}
-    </div>
-  );
+      </div>
+    );
+  } catch (err) {
+    console.error('ModuleLibrary render error:', err);
+    return (
+      <Card className="p-6 text-center text-destructive">
+        Failed to render modules: {err instanceof Error ? err.message : String(err)}
+      </Card>
+    );
+  }
 };
 
 export default ModuleLibrary;
