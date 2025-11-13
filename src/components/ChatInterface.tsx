@@ -196,10 +196,10 @@ const ChatInterface = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                KIT Course Guide
+                KIT Semester Planner · Nova Innovation Hub
               </h1>
               <p className="text-sm text-muted-foreground">
-                KIT Nova · Innovation Space — plan your next semester journey
+                Map your studies and uncover support for project-driven courses.
               </p>
             </div>
             <div className="flex items-center gap-3">
