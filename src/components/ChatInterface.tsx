@@ -83,6 +83,12 @@ const ChatInterface = () => {
 
   const startConversation = async () => {
     try {
+      if (!ELEVENLABS_API_KEY || !AGENT_ID) {
+        toast.error('Missing ElevenLabs API configuration. Check your .env file.');
+        console.error('Missing API key or Agent ID');
+        return;
+      }
+
       await navigator.mediaDevices.getUserMedia({ audio: true });
       const response = await fetch(
         `https://api.elevenlabs.io/v1/convai/conversation/get_signed_url?agent_id=${AGENT_ID}`,
@@ -90,10 +96,19 @@ const ChatInterface = () => {
           headers: { 'xi-api-key': ELEVENLABS_API_KEY }
         }
       );
+      
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('ElevenLabs API error:', response.status, errorText);
+        toast.error(`Failed to connect: ${response.status}`);
+        return;
+      }
+
       const data = await response.json();
       await conversation.startSession({ signedUrl: data.signed_url });
     } catch (e) {
-      toast.error('Failed to start conversation');
+      console.error('Conversation error:', e);
+      toast.error('Failed to start conversation: ' + (e instanceof Error ? e.message : 'Unknown error'));
     }
   };
 
