@@ -92,12 +92,6 @@ const ChatInterface = () => {
       );
       const data = await response.json();
       await conversation.startSession({ signedUrl: data.signed_url });
-      
-      setMessages([{
-        role: 'assistant',
-        content: 'Hello! I\'m your KIT Mechatronics and Information Technology Course Guide. How can I help you plan your semester?',
-        timestamp: new Date().toLocaleTimeString()
-      }]);
     } catch (e) {
       toast.error('Failed to start conversation');
     }
