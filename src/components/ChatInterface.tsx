@@ -193,16 +193,16 @@ const ChatInterface = () => {
       {/* Header */}
       <div className="border-b border-border bg-card shadow-sm">
         <div className="container max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                KIT Course Guide
-              </h1>
-              <p className="text-sm text-muted-foreground">
-                KIT Nova · Innovation Space — plan your next semester journey
-              </p>
+          <div className="grid grid-cols-3 items-center">
+            <div className="justify-self-start" />
+            <div className="justify-self-center">
+              <img
+                src="/kit-nova-logo.svg"
+                alt="KIT Nova"
+                className="h-8 md:h-9"
+              />
             </div>
-            <div className="flex items-center gap-3">
+            <div className="justify-self-end flex items-center gap-3">
               <VoiceIndicator 
                 isActive={isConnected} 
                 isSpeaking={conversation.isSpeaking} 
