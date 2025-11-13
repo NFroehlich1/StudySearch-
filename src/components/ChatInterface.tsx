@@ -12,6 +12,7 @@ import PDFViewer from './PDFViewer';
 import CourseRecommendations from './CourseRecommendations';
 import SemesterPlanner from './SemesterPlanner';
 import ModuleLibrary from './ModuleLibrary';
+import ErrorBoundary from './ErrorBoundary';
 import { useCourseRecommendations } from '@/hooks/useCourseRecommendations';
 import { useBookmarks } from '@/hooks/useBookmarks';
 import { extractCoursesFromMessage, quickDetectCourses } from '@/utils/courseParser';
@@ -335,11 +336,13 @@ const ChatInterface = () => {
           </TabsContent>
 
           <TabsContent value="modules" className="flex-1 overflow-hidden mt-0">
-            <ModuleLibrary
-              existingCourses={recommendations}
-              onAddRecommendation={addRecommendation}
-              onCourseClick={handleCourseClick}
-            />
+            <ErrorBoundary fallbackMessage="Failed to load module library. Please refresh the page.">
+              <ModuleLibrary
+                existingCourses={recommendations}
+                onAddRecommendation={addRecommendation}
+                onCourseClick={handleCourseClick}
+              />
+            </ErrorBoundary>
           </TabsContent>
 
           <TabsContent value="recommendations" className="flex-1 overflow-hidden mt-0">
