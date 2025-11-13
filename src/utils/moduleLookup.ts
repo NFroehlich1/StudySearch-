@@ -10,6 +10,17 @@ export interface ModuleInfo {
     area?: string;
     subcategory?: string;
   }>;
+  schedule?: {
+    times?: string[];
+    rooms?: string[];
+    instructors?: string[];
+    source_page?: number;
+  };
+  exam?: {
+    type?: string;
+    date?: string;
+    day_of_week?: string;
+  };
 }
 
 type ModuleMetadataFile = 
@@ -26,6 +37,17 @@ type ModuleMetadataFile =
         area?: string;
         subcategory?: string;
       }>;
+      schedule?: {
+        times?: string[];
+        rooms?: string[];
+        instructors?: string[];
+        source_page?: number;
+      };
+      exam?: {
+        type?: string;
+        date?: string;
+        day_of_week?: string;
+      };
     }>
   | {
       generatedAt?: string;
@@ -42,6 +64,17 @@ type ModuleMetadataFile =
           area?: string;
           subcategory?: string;
         }>;
+        schedule?: {
+          times?: string[];
+          rooms?: string[];
+          instructors?: string[];
+          source_page?: number;
+        };
+        exam?: {
+          type?: string;
+          date?: string;
+          day_of_week?: string;
+        };
       }>;
     };
 
@@ -70,6 +103,8 @@ async function loadModulesData(forceReload = false): Promise<ModuleInfo[]> {
         term: entry.term,
         type: entry.type,
         partOf: entry.partOf,
+        schedule: entry.schedule,
+        exam: entry.exam,
       }));
 
     return moduleData;
