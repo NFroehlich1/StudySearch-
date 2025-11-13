@@ -196,7 +196,13 @@ const ModuleLibrary = ({ existingCourses, onAddRecommendation, onCourseClick }: 
     };
   }, [normalizedModules]);
 
-  const { terms, types, areas, subcategoriesByArea, subcategories } = filterOptions;
+  const {
+    terms = [],
+    types = [],
+    areas = [],
+    subcategoriesByArea = new Map<string, FilterOption[]>(),
+    subcategories = [],
+  } = filterOptions;
 
   const filteredModules = useMemo(() => {
     let filtered = modules;
